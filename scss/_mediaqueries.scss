@@ -1,0 +1,349 @@
+@import "variables";
+.root {
+    --bs-gutter-x: 0rem !important;
+}
+@media (min-width: 577px) {       /* switch que quita logo y titulo de la navbar */
+    .d-flex.flex-row.encabezadoMovil {
+        display: none !important;
+    }
+}
+@media (min-width:992px) and (max-width:1186px) {
+    .texto1 {
+        font-size: 35px;
+    }
+    .margenLocales {
+        margin-left:5rem;
+    }
+    .espaciadoHome {
+        padding-left: 1.5rem;
+    }
+}
+@media (min-width:1400px) and (max-width:1900px) {
+    .texto1 {
+        font-size: 50px;
+    }
+    .espaciadoHome {
+        padding-left: 6.5rem;
+    }
+}
+
+ /*    Movil    */
+@media (max-width: 576.5px)  and (orientation:portrait) {
+    .row.heather {
+        display: none !important;
+    }
+    .texto2 {
+        font-size: 20px;
+    }
+    .texto3 {
+        font-size: 1rem;
+    }
+    .texto9 {
+        color: $colorTexto; 
+        font-size: 12px;
+    }   
+    .textoSlogan {
+        font-size: 1.25rem;
+    }       
+    /* .lineaDiv {
+        width: 81vw;
+        margin-bottom: 0px; 
+        margin-left: 0.625rem;
+        transform: translate(0px,-20px);
+    } */
+    .linea {
+        border-top: 1px solid $naranja-marca;
+        height: 1px; 
+        width: 94vw;
+        margin-bottom: 50px; 
+        margin-left: 0.625rem; 
+        transform: translate(0px,-10px);
+        &Div {
+            border-top: 1px solid $naranja-marca;
+            height: 1px; 
+            width: 81vw;
+            margin-bottom: 0px; 
+            margin-left: 0.625rem; 
+            transform: translate(3px,-12px);
+        }    
+        &Div2 {
+            border-top: 1px solid $naranja-marca;
+            height: 1px; 
+            width: 75vw;
+            transform: translateY(-10px);
+        }
+    }
+    .espaciadoHome {
+        padding-left: 1.7rem;
+    }
+    .row.espaciadoHome {
+        width: 85%;
+        margin-left: 1rem;
+    } 
+    .col-sm-12 { 
+        width: 372px;
+    }
+    .col-sm-12.espaciadoHome {
+        margin-left: 0rem;
+        padding-right: 0.8rem;
+    }
+    .recuadroHome {
+        padding-top: 5px;
+        margin-bottom: 3rem;
+        height: 16rem;
+        width: 18.5rem;
+    }
+    .cabeceraRecuadro {
+        width: 18.5rem;
+        padding-left: 0px;
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .encabezadoMovil__titulo {
+        transform: translate(35px, 10px);
+        font-size: 24px;
+    }
+    .margenLocales {
+        margin-left:0.6rem;
+    }
+    .recuadroLocales {                   
+        padding-left: 45px;
+        padding-top: 15px;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+        max-width: 16rem;
+        min-width: 13rem;
+        height: 12rem;
+    }
+    .cabRecLocales {
+        width: 100%;
+        font-size: 1.5rem;
+        max-width: 16rem;
+        min-width: 13rem;
+        margin-left: 2rem;
+    }
+    .row.miCarrusel1 {    /* quita el padding de Bootstrap del carrusel*/
+        padding-left: 0%;
+    }
+    .row.miCarrusel2 {
+        padding-left: 0%;
+    }
+    .cajaServC p {
+        margin-left: 5px;
+    }
+    .recuadroContacto {
+        width: 90vw;
+        border-left: transparent;
+        border-right: transparent;
+    } 
+    .cajaServC {
+    width:100%;
+    padding-left: 10px;
+    padding-right:20px ;
+}
+    .texto5 {
+    font-size: 1.4rem;
+    }   
+    .cabeceraServ {
+    margin: 0 0 1.6rem 0;
+    font-size: 1.7rem;
+    width: 90%;
+    }
+    .posDeSlogan {
+    width: 80%; 
+    margin-bottom: 00px;
+    position: relative; bottom: 3.5rem; left: 1.8rem;
+    background-color: rgba(0,0,0,0.4);
+    }
+    .mapaUb {
+    width: 70%;
+    height: 250px;
+    }
+    .mapaRest {
+    width: 70%;
+    height: 250px;
+    margin-left: 1.8rem;
+    } 
+    .margenUb {
+    margin-left: 0rem ;
+    }
+    .videoEntorno {
+    width: 60vw;
+    margin-left: 1.8rem;
+    }
+    .mapaUb {
+    width: 75%;
+    height: 250px;
+    margin-left: 1.8rem;
+    }
+    .footer {
+        &--display {
+        width: 99%;
+        height: 2.4rem;
+        padding: 0px 5px 0 5px;
+        overflow-x: hidden !important;
+        
+        }
+        &__p {
+            width: 73%; 
+            padding-left: 10px;
+            padding-top: 3px;
+        }
+        &__div {
+            width: 25%;
+            padding-left: 0%; 
+            padding-right: 0%;
+        }
+    }
+    .efectoLogo {
+        padding: 0;;
+    }
+}
+
+    /*Tablet*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) { 
+    /* .row.heather {
+    display: none !important;
+    } */
+    .texto1 {
+        font-size: 1.6rem;
+    }
+    .texto2 {
+    font-size: 1.4rem;
+    }
+    .textoSlogan {
+    font-size: 1.45rem;
+    }       
+    .texto3 {
+    font-size: 1.1rem;
+    }
+    .tituloMovil {
+    transform: translate(35px, 10px);
+    font-size: 28px;
+    }
+    .margenLocales {
+    margin-left:1.5rem;
+    }
+    .recuadroLocales {                   
+        padding-left: 45px;
+        padding-top: 15px;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+        max-width: 16rem;
+        min-width: 13rem;
+        height: 12rem;
+    }
+    .cabRecLocales {
+        width: 100%;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 16rem;
+        min-width: 13rem;
+        margin-left: 2rem;
+    }
+    .row.miCarrusel1 {    /* quita el padding de Bootstrap del carrusel*/
+        padding-left: 0%;
+    }
+    .row.miCarrusel2 {
+        padding-left: 0%;
+    }
+    .cajaServC p {
+        margin-left: 5px;
+    }
+    .cajaServC {
+    width:100%;
+    padding-left: 10px;
+    padding-right:20px ;
+    }
+    .texto5 {
+    font-size: 1.4rem;
+    }   
+    .cabeceraServ {
+        margin: 0 0 1.6rem 0;
+        font-size: 1.7rem;
+        width: 90%;
+    }
+    .cajaFooter {
+        width: 97%;
+        height: 2.4rem;
+    }
+    .pFooter {
+        padding-left: 2%;
+        width: 75%;  
+    }
+    .divFooter{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 1.1%;
+        padding-left: 1.1%; 
+        width: 25%;
+    }
+    .mapaUb {
+        width: 70%;
+        height: 250px;
+    }
+    .mapaRest {
+    width: 70%;
+    height: 250px;
+    margin-left: 1.8rem;
+    } 
+    .margenUb {
+    margin-left: 0rem ;
+    }
+    .videoEntorno {
+    width: 60vw;
+    margin-left: 1.8rem;
+    }
+    .mapaUb {
+    width: 75%;
+    height: 250px;
+    margin-left: 1.8rem;
+    }    
+} 
+ 
+    /*landscape*/
+@media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+    .texto1 {
+        font-size: 2.25rem;
+    }
+    .texto2 {
+        font-size: 1.6rem;
+    } 
+    .textoSlogan {
+        font-size: 1.65rem;
+    }
+}
+ 
+@media (min-width: 576px) and (max-width: 991.98px)and (orientation:landscape) {
+    .texto1 {
+        font-size: 1.8rem;
+    }
+    .texto2 {
+        font-size: 1.4rem;
+    }
+    .textoSlogan {
+        font-size: 1.4rem;
+    }               
+}
+ 
+ @media (min-width:991.98px ) and (max-width: 1199.98px )and (orientation:landscape) {
+    .texto1 {
+        font-size: 2.3rem;
+    }
+    .texto2 {
+        font-size: 1.4rem;
+    } 
+    .textoslogan {
+        font-size: 1.5rem;
+    } 
+    .cajaMenu {
+            height: 100%;
+            width: 65%;
+    }   
+    
+}

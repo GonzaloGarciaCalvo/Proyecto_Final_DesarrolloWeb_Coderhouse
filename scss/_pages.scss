@@ -1,0 +1,280 @@
+@import"variables";
+// HOME
+.posDeSlogan {
+    align-self: center;
+    text-align: center;
+   /*  width: 20%;  */
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 6px;
+    position: relative; bottom: 2.35rem; 
+  /*   position: absolute; top: 180px; left: 20px; */
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    
+}
+.img{                  
+    width:100%;
+    height:100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.img {
+    img {
+    width:100%;   
+    }
+}
+.boxHome {
+    width: 320px;
+}
+.recuadro {           /*  usado en index y locales                */
+    background-color: white;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+@mixin minmax-W ($min-width,$max-width) {
+    min-width: $min-width;
+    max-width: $max-width;
+}
+.recuadroHome {
+    @extend .recuadro;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-bottom: 3rem;
+    @include minmax-W(18.5rem, 19rem);
+    height: 16rem;
+}
+.cabecera {
+    width: 100%;
+    border:1px solid $naranja-marca;
+    background-color: $naranja-marca;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cabeceraRecuadro {
+    @extend .cabecera;
+    font-size: 1.5rem;
+    @include minmax-W(18.5rem, 19rem);
+}
+.espaciadoHome {
+    /* padding-left: 3rem; */
+    padding-left: 0rem;
+}
+.prueba {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+/* .col-4 {
+    width: 28%;
+} */
+/* .col-lg-4 {
+    width: 3%;
+} */
+.bg-dark {
+    background-color: #262626 !important;
+}
+.recuadroFinal {
+    text-align: left
+}
+// LOCALES
+
+.recuadroLocales {
+    @extend .recuadro;
+    border:1px solid $naranja-marca;
+    padding-left: 45px;
+    padding-top: 15px;
+    margin-bottom: 3rem;
+    @include minmax-W(13rem, 16rem);
+    height: 12rem;
+}
+.cabRecLocales {
+    @extend .cabecera;
+    @include minmax-W(13rem, 16rem)
+}
+.margenLocales {
+    margin-left:3.5rem;
+}
+.posFotos{
+    margin-left: 40px;
+}
+.fotosLocales {
+    width: 50vw;
+    padding-bottom: 10px;
+}
+.carousel.slide{
+    width: 65vh;
+}
+.carousel.slide.otroCarrusel{    /* .otroCarrusel es para diferenciar los 2 carruseles distintos*/
+    width: 88vh;
+}
+.lineaEspaciosComunes {
+    transform: translate(3px, -20px);
+}
+// SERVICIOS
+
+.box {
+    &__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        width:90%;
+        padding-left: 60px;
+        padding-top: 20px;
+        p {
+            padding-top: 10px;
+        }
+    } 
+    &__cabecera {
+        text-align: center;
+        margin: 2rem 0 2.5rem 0rem;
+        background-color: $naranja-marca;
+        color: white;
+        font-size: 1.7rem;
+        width: 90%;
+        &__p {
+            margin: 0;
+        }
+    }     
+    }
+
+.servicios__logo {
+    max-height: 55px;
+    max-width: 55px; 
+    min-height: 30px ;
+    min-width: 30px;
+    padding-bottom: 10px; 
+    /* width: 8%; height: 100%; */
+}  
+
+.efectoLogo {
+    transform: scale(1,1);
+    transition: all 1s ;
+}
+.efectoLogo:hover {
+    transform: scale(1.3, 1.3);
+}
+
+// UBICACION
+.posMapas { 
+    margin-left: 45px;
+    }
+.margenUb {
+    margin-left: 1.5rem ;
+}
+
+.skewxCr {
+    transform:skewX(15deg);
+}
+.videoEntorno {
+    width: 60vw;
+}
+.mapaUb {
+    width: 35vw;
+    height: 40vh;
+    border:1px solid gray;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.mapaRest {
+    width: 35vw;
+    height: auto;
+    border:1px solid gray;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.videoEntorno {
+    margin-left: 3rem;
+    margin-top: 1rem
+}
+// CONTACTO 
+.divContacto {
+    margin-left: 0px; 
+    margin-bottom: 10px;
+    }   
+.rowContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row.rowContacto {
+    --bs-gutter-x: 0rem !important;
+}
+.recuadroContacto {
+    border: 1px solid $naranja-marca;
+    width: 90vh;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+@each $boton, $color in $mapaColores{
+    .btn--#{$boton}{
+        background-color: $color;
+        color:white;
+        width: 4rem;
+    }
+}
+
+// GENERALES 
+
+a { 
+    text-decoration: none;
+} 
+pre {
+    font-family: 'Roboto'
+}
+p {
+    font-family: 'Roboto'
+}
+body {
+    font-family: 'Roboto';
+    overflow-x: hidden;
+}
+.linea {
+    border-top: 1px solid $naranja-marca;
+    height: 1px; 
+    width: 94vw;
+    margin-bottom: 50px; 
+    margin-left: 0.625rem; 
+    transform: translate(0px,-10px);
+    &Div {
+        border-top: 1px solid $naranja-marca;
+        height: 1px; 
+        width: 94vw;
+        margin-bottom: 50px; 
+        margin-left: 0.625rem; 
+        transform: translate(3px,-11px);
+    }    
+    &Div2 {
+        border-top: 1px solid $naranja-marca;
+        height: 1px; 
+        width: 75vw;
+        transform: translateY(-11px);
+    }
+}
+/* .lineaDiv {
+    border-top: 1px solid $naranja-marca;
+    height: 1px; 
+    width: 94vw;
+    margin-bottom: 50px; 
+    margin-left: 0.625rem; 
+    transform: translate(3px,-22px);
+    } 
+.lineaDiv2 {
+    border-top: 1px solid $naranja-marca;
+    height: 1px; 
+    width: 75vw;
+    transform: translateY(-22px);
+}  */
+
+/*** Generales NO INDEX ***/
+.contMenu2 {
+    background:linear-gradient( rgba(38, 38, 38, 0.99),rgba(50, 50, 50, 0.82)); 
+} 

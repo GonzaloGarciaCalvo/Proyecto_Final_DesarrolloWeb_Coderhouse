@@ -1,0 +1,112 @@
+
+$naranja-marca: #EE8D35;
+$Gris: #262626;
+$colorTexto: white;
+$violeta-marca: #9640cc;
+$rojo-marca: #8A191D;
+$mapaColores :(   
+        boton1: $naranja-marca, 
+        boton2: $violeta-marca
+        );
+// variables de colores usadas por bootstrap
+$blue:    #0d6efd;
+$red:     #dc3545;
+$yellow:  #ffc107;
+$green:   #198754;
+$cyan:    #0dcaf0;
+$gray-100: #f8f9fa;
+$gray-600: #6c757d;
+$gray-900: #212529;
+$black:    #000;
+
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+// thems de colores bootstrap 
+$theme-colors: (
+            "primary":    $primary,
+            "secondary":  $secondary,
+            "success":    $success,
+            "info":       $info,
+            "warning":    $warning,
+            "danger":     $danger,
+            "light":      $light,
+            "dark":       $dark
+);          
+// Agrega colores al map de colores de Bootstraap
+$custom-colors: (
+    "naranja-marca": $naranja-marca,
+    "violeta-marca": $violeta-marca
+    );
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$btn-hover-bg-tint-amount:   30%;   
+//definicion de otras variables usadas en botones
+$color-contrast-light: grey  !default;
+$btn-hover-border-shade-amount:   20%;
+$btn-hover-border-tint-amount:    10%;
+$btn-active-bg-shade-amount:      20%;
+$btn-active-bg-tint-amount:       20%;
+$btn-active-border-shade-amount:  25%;
+$btn-active-border-tint-amount:   10%;
+$btn-hover-bg-shade-amount:       15%;
+$btn-hover-bg-tint-amount:        10%;
+$enable-gradients: true;
+
+
+@mixin gradient-bg($color: null) {
+    background-color: $color;
+}
+
+@mixin button-variant(
+  $background,
+  $border,
+  $color: white, /* color-contrast($background), */
+  $hover-background: shade-color($background, $btn-hover-bg-shade-amount),
+  $hover-border: if($color == $color-contrast-light, shade-color($border, $btn-hover-border-shade-amount), tint-color($border, $btn-hover-border-tint-amount)),
+  $hover-color: color-contrast($hover-background),
+  $active-background: if($color == $color-contrast-light, shade-color($background, $btn-active-bg-shade-amount), tint-color($background, $btn-active-bg-tint-amount)),
+  $active-border: if($color == $color-contrast-light, shade-color($border, $btn-active-border-shade-amount), tint-color($border, $btn-active-border-tint-amount)),
+  $active-color: color-contrast($active-background),
+  $disabled-background: $background,
+  $disabled-border: $border,
+  $disabled-color: color-contrast($disabled-background)
+) {
+  color: $color;
+  @include gradient-bg($background);
+  border-color: $border;
+/*   @include box-shadow($btn-box-shadow); */
+
+  &:hover {
+    color: $hover-color;
+    @include gradient-bg($hover-background);
+    border-color: $hover-border;
+  }
+}
+// bucle modificado que genera los botones
+@each $background, $value in $theme-colors {
+    .btn-#{$background} {
+        width: 5rem; 
+        @include button-variant($value, $value);
+    }
+}
+
+/* @mixin button-variant(
+    $background, 
+    $color: white,
+     $hover-background: shade-color($background, 10%),
+    ) {
+    background-color: $background;
+    color: white;
+    
+    &:hover {
+        background: $hover-background
+      } 
+    }  */
+    // bucle para generar los botones personalizados
+    
+

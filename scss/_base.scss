@@ -1,0 +1,53 @@
+//RESET
+* { 
+    margin: 0; padding: 0;
+}
+
+/* $naranja-marca: #EEBD35;
+$Gris: #262626; */
+@import "variables";
+
+/* TIPOGRAFÍA */
+.texto1 {
+    color: $colorTexto;
+    font-size: 40px;
+    }
+.texto2 {
+    color: $colorTexto; 
+    font-size: 28px;
+    text-transform: uppercase;
+    } 
+.texto3 {
+    color: $colorTexto; 
+    font-size: 20px;
+    list-style-type: none; 
+    }
+.texto4 { 
+        color: black; 
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+.texto5 { 
+    color: black; 
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.texto6 { 
+    font-size: 24; 
+}
+.texto7 { 
+    font-size: 0.9rem;
+}
+.texto8 {
+    font-size: 1.5rem;
+} 
+.textoSlogan {
+    font-size: 2rem;
+    color: $colorTexto; 
+    font-weight: 500;
+    /* text-transform: uppercase; */
+}   
+.texto9 {
+    color: $colorTexto; 
+    font-size: 16px;
+}     
