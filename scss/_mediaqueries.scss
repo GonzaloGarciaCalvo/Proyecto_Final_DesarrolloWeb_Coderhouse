@@ -74,10 +74,10 @@
         }
     }
     .espaciadoHome {
-        padding-left: 1.7rem;
+        padding-left: 0.25rem;
     }
     .row.espaciadoHome {
-        width: 85%;
+        /* width: 85%; */
         margin-left: 1rem;
     } 
     .col-sm-12 { 
@@ -179,17 +179,22 @@
     margin-left: 1.8rem;
     }
     .footer {
+        &__direccion {
+            padding-left: 10px;
+            margin-left: 0.5rem;
+            width: 90vw
+        }
         &--display {
         width: 99%;
         height: 2.4rem;
         padding: 0px 5px 0 5px;
         overflow-x: hidden !important;
-        
         }
         &__p {
             width: 73%; 
             padding-left: 10px;
             padding-top: 3px;
+            margin-left: 0.1rem;
         }
         &__div {
             width: 25%;
@@ -200,11 +205,14 @@
    .mapaDeSitio {
         font-size: 12px;
         margin-left: 0rem;
+        width: 90vw;
     }
     .mapaDeSitio a {
         width:3rem;
         margin-left: 0px;
-        margin-right: 5px;
+        padding: 5px;
+        margin-right: 3px;
+        /* text-align: start; */
     } 
     .efectoLogo {
         padding: 0;
