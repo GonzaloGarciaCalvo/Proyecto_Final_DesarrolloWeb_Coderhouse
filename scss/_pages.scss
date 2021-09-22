@@ -72,6 +72,9 @@
     flex-direction: column;
     justify-content: flex-end;
 }
+.row.espaciadoHome {
+    --bs-gutter-x: 0rem;
+}
 /* .col-4 {
     width: 28%;
 } */
@@ -179,20 +182,20 @@
 }
 .mapaUb {
     width: 35vw;
-    height: 40vh;
+    height: 30vw;
     border:1px solid gray;
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-top: 1rem;
 }
 .mapaRest {
     width: 35vw;
     height: auto;
     border:1px solid gray;
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-top: 1rem;
 }
 .videoEntorno {
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-top: 1rem
 }
 // CONTACTO 

@@ -106,23 +106,29 @@
         justify-content: space-around;
         width: 25%;
     }
-    .mapaDeSitio {
-        font-size: 16px;
-        /* line-height: 18px; */
-        display: flex;
-        flex-direction: row;
-        margin-left: 0.75rem;
-    }
-    .mapaDeSitio a {
-        color: white;
-        /* display: inline; */
-        width: 4.5rem;
-        margin-left: 0px;
-        margin-right: 5px;
-    } 
-    .mapaDeSitio a:hover {
-        color: $naranja-marca;
-    }
+}   
+.mapaDeSitio a:hover {
+    color: $naranja-marca;
+}
+.mapaDeSitio {
+    font-size: 16px;
+    /* line-height: 18px; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.75rem;
+}
+.mapaDeSitio a {
+    color: white;
+    /* display: inline; */
+    width: 4.5rem;
+    margin-left: 0px;
+    margin-right: 5px;
+} 
+.logoTelFace {
+    width: 32px;
+}
+.logoLinkUb {
+    width: 25px;
 }
 address {
     margin-bottom: 0;

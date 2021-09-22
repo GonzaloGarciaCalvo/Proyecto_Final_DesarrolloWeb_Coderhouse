@@ -385,20 +385,29 @@ $Gris: #262626; */
     padding-left: 1.1%;
     justify-content: space-around;
     width: 25%; }
-  .footer .mapaDeSitio {
-    font-size: 16px;
-    /* line-height: 18px; */
-    display: flex;
-    flex-direction: row;
-    margin-left: 0.75rem; }
-  .footer .mapaDeSitio a {
-    color: white;
-    /* display: inline; */
-    width: 4.5rem;
-    margin-left: 0px;
-    margin-right: 5px; }
-  .footer .mapaDeSitio a:hover {
-    color: #EE8D35; }
+
+.mapaDeSitio a:hover {
+  color: #EE8D35; }
+
+.mapaDeSitio {
+  font-size: 16px;
+  /* line-height: 18px; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.75rem; }
+
+.mapaDeSitio a {
+  color: white;
+  /* display: inline; */
+  width: 4.5rem;
+  margin-left: 0px;
+  margin-right: 5px; }
+
+.logoTelFace {
+  width: 32px; }
+
+.logoLinkUb {
+  width: 25px; }
 
 address {
   margin-bottom: 0; }
@@ -594,6 +603,9 @@ address {
   flex-direction: column;
   justify-content: flex-end; }
 
+.row.espaciadoHome {
+  --bs-gutter-x: 0rem; }
+
 /* .col-4 {
     width: 28%;
 } */
@@ -689,20 +701,20 @@ address {
 
 .mapaUb {
   width: 35vw;
-  height: 40vh;
+  height: 30vw;
   border: 1px solid gray;
-  margin-left: 3rem;
+  margin-left: 4rem;
   margin-top: 1rem; }
 
 .mapaRest {
   width: 35vw;
   height: auto;
   border: 1px solid gray;
-  margin-left: 3rem;
+  margin-left: 4rem;
   margin-top: 1rem; }
 
 .videoEntorno {
-  margin-left: 3rem;
+  margin-left: 4rem;
   margin-top: 1rem; }
 
 .divContacto {
@@ -1432,8 +1444,19 @@ img {
     width: 25%;
     padding-left: 0%;
     padding-right: 0%; }
+  .mapaDeSitio {
+    font-size: 12px;
+    margin-left: 0rem; }
+  .mapaDeSitio a {
+    width: 3rem;
+    margin-left: 0px;
+    margin-right: 5px; }
   .efectoLogo {
-    padding: 0; } }
+    padding: 0; }
+  .logoTelFace {
+    width: 23px; }
+  .logoLinkUb {
+    width: 19px; } }
 
 /*Tablet*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
