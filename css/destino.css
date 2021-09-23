@@ -668,7 +668,11 @@ address {
   background-color: #EE8D35;
   color: white;
   font-size: 1.7rem;
-  width: 90%; }
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3px; }
   .box__cabecera__p {
     margin: 0; }
 
