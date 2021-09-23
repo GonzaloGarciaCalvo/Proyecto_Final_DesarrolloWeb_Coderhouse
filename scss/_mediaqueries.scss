@@ -2,7 +2,7 @@
 .root {
     --bs-gutter-x: 0rem !important;
 }
-@media (min-width: 781px) {       /* switch que quita logo y titulo de la navbar */
+@media (min-width: 768px) {       /* switch que quita logo y titulo de la navbar */
     .d-flex.flex-row.encabezadoMovil {
         display: none !important;
     }
@@ -28,7 +28,7 @@
 }
 
  /*    Movil    */
-@media (max-width: 780px)  and (orientation:portrait) { // 767
+@media (max-width: 767px)  and (orientation:portrait) { // 767
     .row.heather {
         display: none !important;
     }
