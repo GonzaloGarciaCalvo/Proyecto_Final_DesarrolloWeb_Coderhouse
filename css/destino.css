@@ -127,6 +127,10 @@ $Gris: #262626; */
         background: $hover-background
       } 
     }  */
+/* :root {
+      --animate-duration: 800ms;
+      --animate-delay: 2s;
+    } */
 /* TIPOGRAFÍA */
 .texto1 {
   color: white;
@@ -293,6 +297,10 @@ $Gris: #262626; */
         background: $hover-background
       } 
     }  */
+/* :root {
+      --animate-duration: 800ms;
+      --animate-delay: 2s;
+    } */
 .heather {
   background-color: #262626;
   height: 110px;
@@ -537,6 +545,10 @@ address {
         background: $hover-background
       } 
     }  */
+/* :root {
+      --animate-duration: 800ms;
+      --animate-delay: 2s;
+    } */
 .posDeSlogan {
   align-self: center;
   text-align: center;
@@ -922,6 +934,10 @@ body {
         background: $hover-background
       } 
     }  */
+/* :root {
+      --animate-duration: 800ms;
+      --animate-delay: 2s;
+    } */
 .btn-primary {
   width: 5rem;
   color: white;
@@ -1044,6 +1060,10 @@ body {
         background: $hover-background
       } 
     }  */
+/* :root {
+      --animate-duration: 800ms;
+      --animate-delay: 2s;
+    } */
 .btn-primary {
   width: 5rem;
   color: white;
@@ -1290,6 +1310,10 @@ img {
         background: $hover-background
       } 
     }  */
+/* :root {
+      --animate-duration: 800ms;
+      --animate-delay: 2s;
+    } */
 .root {
   --bs-gutter-x: 0rem !important; }
 
