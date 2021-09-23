@@ -336,6 +336,13 @@ $Gris: #262626; */
   letter-spacing: 1px;
   word-spacing: 5px; }
 
+.encabezadoMovil {
+  width: 100vw;
+  margin: 0;
+  /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */ }
+
 .container-fluid {
   overflow: hidden !important; }
 
@@ -1335,7 +1342,7 @@ img {
 .root {
   --bs-gutter-x: 0rem !important; }
 
-@media (min-width: 577px) {
+@media (min-width: 768px) {
   /* switch que quita logo y titulo de la navbar */
   .d-flex.flex-row.encabezadoMovil {
     display: none !important; } }
@@ -1355,7 +1362,7 @@ img {
     padding-left: 6.5rem; } }
 
 /*    Movil    */
-@media (max-width: 576.5px) and (orientation: portrait) {
+@media (max-width: 767px) and (orientation: portrait) {
   .row.heather {
     display: none !important; }
   .texto2 {
@@ -1367,12 +1374,6 @@ img {
     font-size: 12px; }
   .textoSlogan {
     font-size: 1.25rem; }
-  /* .lineaDiv {
-        width: 81vw;
-        margin-bottom: 0px; 
-        margin-left: 0.625rem;
-        transform: translate(0px,-20px);
-    } */
   .linea {
     border-top: 1px solid #EE8D35;
     height: 1px;
@@ -1401,7 +1402,7 @@ img {
     width: 372px; }
   .col-sm-12.espaciadoHome {
     margin-left: 0rem;
-    padding-right: 0.8rem; }
+    padding-right: 0rem; }
   .recuadroHome {
     padding-top: 5px;
     margin-bottom: 3rem;
@@ -1415,8 +1416,9 @@ img {
     flex-direction: column;
     align-items: center; }
   .encabezadoMovil__titulo {
-    transform: translate(35px, 10px);
-    font-size: 24px; }
+    /* transform: translate(35px, 10px); */
+    font-size: 24px;
+    text-align: center; }
   .margenLocales {
     margin-left: 0.6rem; }
   .recuadroLocales {

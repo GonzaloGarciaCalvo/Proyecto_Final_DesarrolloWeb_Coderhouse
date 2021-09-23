@@ -40,6 +40,13 @@
     letter-spacing: 1px;
     word-spacing: 5px;
 }
+.encabezadoMovil {
+    width: 100vw;
+    margin: 0;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+}
 .container-fluid {
     overflow: hidden !important;
 }
