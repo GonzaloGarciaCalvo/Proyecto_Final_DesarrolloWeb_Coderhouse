@@ -304,11 +304,7 @@ $Gris: #262626; */
 .heather {
   background-color: #262626;
   height: 110px;
-  width: 100vw;
-  /* &__h1 {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    } */ }
+  width: 100vw; }
   .heather__logo {
     width: 95px;
     height: 95px;
@@ -338,6 +334,7 @@ $Gris: #262626; */
 
 .encabezadoMovil {
   width: 100vw;
+  /*  falta commitear esto */
   margin: 0; }
 
 .container-fluid {
@@ -629,7 +626,6 @@ address {
   max-width: 19rem; }
 
 .espaciadoHome {
-  /* padding-left: 3rem; */
   padding-left: 0rem; }
 
 .prueba {
@@ -1340,8 +1336,8 @@ img {
   --bs-gutter-x: 0rem !important; }
 
 @media (min-width: 768px) {
-  /* switch que quita logo y titulo de la navbar */
   .d-flex.flex-row.encabezadoMovil {
+    /* Falta commitear el cambio de 577 a 768px  */
     display: none !important; } }
 
 @media (min-width: 992px) and (max-width: 1186px) {
@@ -1350,6 +1346,7 @@ img {
   .margenLocales {
     margin-left: 5rem; }
   .espaciadoHome {
+    /*  chequear esto */
     padding-left: 1.5rem; } }
 
 @media (min-width: 1400px) and (max-width: 1900px) {
@@ -1502,8 +1499,7 @@ img {
     width: 3rem;
     margin-left: 0px;
     padding: 5px;
-    margin-right: 3px;
-    /* text-align: start; */ }
+    margin-right: 3px; }
   .efectoLogo {
     padding: 0; }
   .logoTelFace {

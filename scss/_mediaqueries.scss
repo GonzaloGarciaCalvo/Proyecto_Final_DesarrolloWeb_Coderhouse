@@ -2,8 +2,8 @@
 .root {
     --bs-gutter-x: 0rem !important;
 }
-@media (min-width: 768px) {       /* switch que quita logo y titulo de la navbar */
-    .d-flex.flex-row.encabezadoMovil {
+@media (min-width: 768px) {       // switch que quita logo y titulo de la navbar */
+    .d-flex.flex-row.encabezadoMovil {  /* Falta commitear el cambio de 577 a 768px  */
         display: none !important;
     }
 }
@@ -14,7 +14,7 @@
     .margenLocales {
         margin-left:5rem;
     }
-    .espaciadoHome {
+    .espaciadoHome {    /*  chequear esto */
         padding-left: 1.5rem;
     }
 }
@@ -28,7 +28,7 @@
 }
 
  /*    Movil    */
-@media (max-width: 767px)  and (orientation:portrait) { // 767
+@media (max-width: 767px)  and (orientation:portrait) { // Falta comitear el cambio en 767px 
     .row.heather {
         display: none !important;
     }
@@ -70,7 +70,7 @@
     .espaciadoHome {
         padding-left: 0.25rem;
     }
-    .row.espaciadoHome {
+    .row.espaciadoHome {    //chequear si falta commit de esto
         /* width: 85%; */
         margin-left: 1rem;
     } 
@@ -96,7 +96,7 @@
         align-items: center;
     }
     .encabezadoMovil__titulo {
-        /* transform: translate(35px, 10px); */
+        /* transform: translate(35px, 10px); */  //reemplazado por ultimos cambios no commiteados
         font-size: 24px;
         text-align: center;
     }
@@ -207,7 +207,6 @@
         margin-left: 0px;
         padding: 5px;
         margin-right: 3px;
-        /* text-align: start; */
     } 
     .efectoLogo {
         padding: 0;
