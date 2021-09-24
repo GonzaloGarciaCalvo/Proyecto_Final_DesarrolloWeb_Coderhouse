@@ -3,7 +3,7 @@
     --bs-gutter-x: 0rem !important;
 }
 @media (min-width: 768px) {       // switch que quita logo y titulo de la navbar */
-    .d-flex.flex-row.encabezadoMovil {  /* Falta commitear el cambio de 577 a 768px  */
+    .d-flex.flex-row.encabezadoMovil { 
         display: none !important;
     }
 }
@@ -28,7 +28,7 @@
 }
 
  /*    Movil    */
-@media (max-width: 767px)  and (orientation:portrait) { // Falta comitear el cambio en 767px 
+@media (max-width: 767px)  { 
     .row.heather {
         display: none !important;
     }

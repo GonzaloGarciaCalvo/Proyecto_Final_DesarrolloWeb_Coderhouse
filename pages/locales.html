@@ -32,22 +32,25 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <nav class="navbar navbar-expand-sm navbar-dark menu--color2 text-white">
-                    <div class="container-fluid ">
-                        <div class="d-flex flex-row encabezadoMovil">
-                            <img src="../images/logokoros.png" alt="" width="50px" height="50px"  class="">
-                            <p class="encabezadoMovil__titulo"> PLAZA KOROS</p> 
-                        </div> 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button> 
+                <nav class="navbar navbar-expand-md navbar-dark menu--color text-white">
+                    <div class="container-fluid px-0">  <!-- creo que falta commitear el justify content around de abajo-->
+                        <div class="d-flex flex-row justify-content-around encabezadoMovil"> <!-- NO BORRAR .d-flex.row.encabezadoMovil, son switch del encabezado -->
+                            <img src="../images/logokoros.png" alt="" width="50px" height="50px"  class="mt-1 pb-1">
+                            <div class="encabezadoMovil__titulo">
+                            <p class="textotituloMovil mb-1 pt-2">PLAZA KOROS</p> 
+                            <p class="textoSubtituloMovil mb-1 mt-0">OFICINAS AAA</p>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>  <!-- boton metido dentro del div para poder alinearlos -->
+                            </button> 
+                        </div>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
                                 <a class="nav-link" href="../index.html">Home</a>
-                                <a class="nav-link" href="locales.html">Locales</a>
-                                <a class="nav-link" href="ubicacion.html">Ubicacion</a>
-                                <a class="nav-link" href="servicios.html">Servicios</a>
-                                <a class="nav-link" href="contacto.html">Contacto</a>
+                                <a class="nav-link" href="../pages/locales.html">Locales</a>
+                                <a class="nav-link" href="../pages/ubicacion.html">Ubicacion</a>
+                                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                             </div>
                         </div>
                     </div>

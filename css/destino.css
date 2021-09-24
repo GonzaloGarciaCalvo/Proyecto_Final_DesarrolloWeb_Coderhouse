@@ -1347,7 +1347,6 @@ img {
 
 @media (min-width: 768px) {
   .d-flex.flex-row.encabezadoMovil {
-    /* Falta commitear el cambio de 577 a 768px  */
     display: none !important; } }
 
 @media (min-width: 992px) and (max-width: 1186px) {
@@ -1366,7 +1365,7 @@ img {
     padding-left: 6.5rem; } }
 
 /*    Movil    */
-@media (max-width: 767px) and (orientation: portrait) {
+@media (max-width: 767px) {
   .row.heather {
     display: none !important; }
   .texto2 {
