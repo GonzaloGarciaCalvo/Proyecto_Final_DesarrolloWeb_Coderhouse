@@ -175,6 +175,13 @@ $Gris: #262626; */
   color: white;
   font-size: 16px; }
 
+.textotituloMovil {
+  line-height: 24px; }
+
+.textoSubtituloMovil {
+  font-size: 12px;
+  line-height: 12px; }
+
 .btn-primary {
   width: 5rem;
   color: white;
@@ -764,7 +771,7 @@ address {
   --bs-gutter-x: 0rem !important; }
 
 .recuadroContacto {
-  border: 1px solid #EE8D35;
+  border: 3px solid #EE8D35;
   width: 90vh;
   padding: 5px;
   margin-bottom: 1rem; }
@@ -1360,7 +1367,7 @@ img {
   .row.heather {
     display: none !important; }
   .texto2 {
-    font-size: 20px; }
+    font-size: 16px; }
   .texto3 {
     font-size: 1rem; }
   .texto9 {
