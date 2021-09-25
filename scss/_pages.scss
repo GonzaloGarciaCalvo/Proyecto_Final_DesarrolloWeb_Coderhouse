@@ -188,15 +188,19 @@
     margin-top: 1rem;
 }
 .mapaRest {
-    width: 35vw;
+    width: 40vw;
     height: auto;
     border:1px solid gray;
-    margin-left: 4rem;
-    margin-top: 1rem;
+    /* margin-left: 4rem; */
+    margin-top: 3rem;
 }
 .videoEntorno {
-    margin-left: 4rem;
-    margin-top: 1rem
+    width: 60vw;
+   /*  margin-left: 4rem;*/
+    margin-top: 3rem; 
+   /*  display: flex;
+    flex-direction: column;
+    align-self: center; */
 }
 // CONTACTO 
 .divContacto {

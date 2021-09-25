@@ -678,15 +678,19 @@ address {
   margin-top: 1rem; }
 
 .mapaRest {
-  width: 35vw;
+  width: 40vw;
   height: auto;
   border: 1px solid gray;
-  margin-left: 4rem;
-  margin-top: 1rem; }
+  /* margin-left: 4rem; */
+  margin-top: 3rem; }
 
 .videoEntorno {
-  margin-left: 4rem;
-  margin-top: 1rem; }
+  width: 60vw;
+  /*  margin-left: 4rem;*/
+  margin-top: 3rem;
+  /*  display: flex;
+    flex-direction: column;
+    align-self: center; */ }
 
 .divContacto {
   margin-left: 0px;
@@ -1302,7 +1306,7 @@ img {
     height: 250px;
     margin-left: 1.8rem; }
   .margenUb {
-    margin-left: 0rem; }
+    margin-left: 1.8rem; }
   .videoEntorno {
     width: 60vw;
     margin-left: 1.8rem; }
@@ -1349,7 +1353,97 @@ img {
   .logoTelFace {
     width: 23px; }
   .logoLinkUb {
-    width: 19px; } }
+    width: 19px; }
+  .btn-primary {
+    width: 6rem;
+    color: white;
+    background-color: #0d6efd;
+    border-color: #0d6efd; }
+    .btn-primary:hover {
+      color: color-contrast(shade-color(#0d6efd, 15%));
+      background-color: shade-color(#0d6efd, 15%);
+      border-color: tint-color(#0d6efd, 10%); }
+  .btn-secondary {
+    width: 6rem;
+    color: white;
+    background-color: #6c757d;
+    border-color: #6c757d; }
+    .btn-secondary:hover {
+      color: color-contrast(shade-color(#6c757d, 15%));
+      background-color: shade-color(#6c757d, 15%);
+      border-color: tint-color(#6c757d, 10%); }
+  .btn-success {
+    width: 6rem;
+    color: white;
+    background-color: #198754;
+    border-color: #198754; }
+    .btn-success:hover {
+      color: color-contrast(shade-color(#198754, 15%));
+      background-color: shade-color(#198754, 15%);
+      border-color: tint-color(#198754, 10%); }
+  .btn-info {
+    width: 6rem;
+    color: white;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0; }
+    .btn-info:hover {
+      color: color-contrast(shade-color(#0dcaf0, 15%));
+      background-color: shade-color(#0dcaf0, 15%);
+      border-color: tint-color(#0dcaf0, 10%); }
+  .btn-warning {
+    width: 6rem;
+    color: white;
+    background-color: #ffc107;
+    border-color: #ffc107; }
+    .btn-warning:hover {
+      color: color-contrast(shade-color(#ffc107, 15%));
+      background-color: shade-color(#ffc107, 15%);
+      border-color: tint-color(#ffc107, 10%); }
+  .btn-danger {
+    width: 6rem;
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545; }
+    .btn-danger:hover {
+      color: color-contrast(shade-color(#dc3545, 15%));
+      background-color: shade-color(#dc3545, 15%);
+      border-color: tint-color(#dc3545, 10%); }
+  .btn-light {
+    width: 6rem;
+    color: white;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa; }
+    .btn-light:hover {
+      color: color-contrast(shade-color(#f8f9fa, 15%));
+      background-color: shade-color(#f8f9fa, 15%);
+      border-color: tint-color(#f8f9fa, 10%); }
+  .btn-dark {
+    width: 6rem;
+    color: white;
+    background-color: #212529;
+    border-color: #212529; }
+    .btn-dark:hover {
+      color: color-contrast(shade-color(#212529, 15%));
+      background-color: shade-color(#212529, 15%);
+      border-color: tint-color(#212529, 10%); }
+  .btn-naranja-marca {
+    width: 6rem;
+    color: white;
+    background-color: #EE8D35;
+    border-color: #EE8D35; }
+    .btn-naranja-marca:hover {
+      color: color-contrast(shade-color(#EE8D35, 15%));
+      background-color: shade-color(#EE8D35, 15%);
+      border-color: tint-color(#EE8D35, 10%); }
+  .btn-violeta-marca {
+    width: 6rem;
+    color: white;
+    background-color: #9640cc;
+    border-color: #9640cc; }
+    .btn-violeta-marca:hover {
+      color: color-contrast(shade-color(#9640cc, 15%));
+      background-color: shade-color(#9640cc, 15%);
+      border-color: tint-color(#9640cc, 10%); } }
 
 /*Tablet*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {

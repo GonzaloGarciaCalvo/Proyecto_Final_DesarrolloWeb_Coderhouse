@@ -163,7 +163,7 @@
     margin-left: 1.8rem;
     } 
     .margenUb {
-    margin-left: 0rem ;
+    margin-left: 1.8rem ;
     }
     .videoEntorno {
     width: 60vw;
@@ -199,7 +199,7 @@
             padding-bottom: 5ps;
         }
     }
-   .mapaDeSitio {
+    .mapaDeSitio {
         font-size: 12px;
         margin-left: 0rem;
         width: 90vw;
@@ -230,6 +230,13 @@
     .logoLinkUb {
         width: 19px;
     }
+    // bucle modificado (con width) que genera los botones de contacto.html
+@each $background, $value in $theme-colors {
+    .btn-#{$background} {
+        width: 6rem; 
+        @include button-variant($value, $value);
+    }
+}
 }
 
     /*Tablet*/
