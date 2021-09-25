@@ -12,8 +12,6 @@
         margin-left: 1rem;
     }
     &__titulo {
-       /*  margin-top: 1.5%;
-        justify-content: space-around; */
         word-spacing: 10px;
         letter-spacing: 3px;
         text-align: center;
@@ -29,7 +27,6 @@
             font-size: 25px;
         }   
     }
-
 }
 .slogan2 {
     font-size: 1.05rem;
@@ -37,8 +34,8 @@
     letter-spacing: 1px;
     word-spacing: 5px;
 }
-.encabezadoMovil {
-    width: 100vw;  /*  falta commitear esto */
+.encabezadoMovil {     
+    width: 100vw;   /* el width es para poder centrar */
     margin: 0;
 }
 .container-fluid {
@@ -46,10 +43,10 @@
 }
 
 .menu--color {
-    background:linear-gradient( rgba(38, 38, 38, 0.99),rgba(70, 70, 70, 0.7)); 
+    background:linear-gradient( rgba(38, 38, 38, 0.98),rgba(70, 70, 70, 0.7)); 
 }
 .menu--color2 {
-    background:linear-gradient( rgba(38, 38, 38, 0.99),rgba(50, 50, 50, 0.82)); 
+    background:linear-gradient( rgba(35, 35, 35, 1),rgba(54, 54, 54, 0.95)); 
 } 
 .navbar {
     padding-top: 0rem;
@@ -119,6 +116,7 @@
     &__p {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         padding-left: 2%;
         padding-top: 5px;
         width: 75%;  
@@ -142,13 +140,23 @@
     flex-direction: row;
     margin-left: 0.85rem;
 }
-.mapaDeSitio a {
+.mapaDeSitio a {             /* barra de navegacion del footer */
     color: white;
-    /* display: inline; */
-    width: 4.5rem;
-    margin-left: 0px;
     margin-right: 5px;
 } 
+.link1 {
+    width: 2.7rem;
+}
+.link2 {
+    width: 3.3rem;
+
+}
+.link3 {
+    width: 4.2rem;
+}
+.link4 {
+    width: 3.7rem;
+}
 .logoTelFace {
     width: 32px;
 }

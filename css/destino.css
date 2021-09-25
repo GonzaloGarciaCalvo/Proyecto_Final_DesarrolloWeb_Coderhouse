@@ -9,8 +9,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #0d6efd;
-  border-color: #0d6efd;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0d6efd; }
   .btn-primary:hover {
     color: color-contrast(shade-color(#0d6efd, 15%));
     background-color: shade-color(#0d6efd, 15%);
@@ -20,8 +19,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #6c757d;
-  border-color: #6c757d;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #6c757d; }
   .btn-secondary:hover {
     color: color-contrast(shade-color(#6c757d, 15%));
     background-color: shade-color(#6c757d, 15%);
@@ -31,8 +29,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #198754;
-  border-color: #198754;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #198754; }
   .btn-success:hover {
     color: color-contrast(shade-color(#198754, 15%));
     background-color: shade-color(#198754, 15%);
@@ -42,8 +39,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #0dcaf0;
-  border-color: #0dcaf0;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0dcaf0; }
   .btn-info:hover {
     color: color-contrast(shade-color(#0dcaf0, 15%));
     background-color: shade-color(#0dcaf0, 15%);
@@ -53,8 +49,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #ffc107;
-  border-color: #ffc107;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #ffc107; }
   .btn-warning:hover {
     color: color-contrast(shade-color(#ffc107, 15%));
     background-color: shade-color(#ffc107, 15%);
@@ -64,8 +59,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #dc3545;
-  border-color: #dc3545;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #dc3545; }
   .btn-danger:hover {
     color: color-contrast(shade-color(#dc3545, 15%));
     background-color: shade-color(#dc3545, 15%);
@@ -75,8 +69,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #f8f9fa; }
   .btn-light:hover {
     color: color-contrast(shade-color(#f8f9fa, 15%));
     background-color: shade-color(#f8f9fa, 15%);
@@ -86,8 +79,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #212529;
-  border-color: #212529;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #212529; }
   .btn-dark:hover {
     color: color-contrast(shade-color(#212529, 15%));
     background-color: shade-color(#212529, 15%);
@@ -97,8 +89,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #EE8D35;
-  border-color: #EE8D35;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #EE8D35; }
   .btn-naranja-marca:hover {
     color: color-contrast(shade-color(#EE8D35, 15%));
     background-color: shade-color(#EE8D35, 15%);
@@ -108,29 +99,12 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #9640cc;
-  border-color: #9640cc;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #9640cc; }
   .btn-violeta-marca:hover {
     color: color-contrast(shade-color(#9640cc, 15%));
     background-color: shade-color(#9640cc, 15%);
     border-color: tint-color(#9640cc, 10%); }
 
-/* @mixin button-variant(
-    $background, 
-    $color: white,
-     $hover-background: shade-color($background, 10%),
-    ) {
-    background-color: $background;
-    color: white;
-    
-    &:hover {
-        background: $hover-background
-      } 
-    }  */
-/* :root {
-      --animate-duration: 800ms;
-      --animate-delay: 2s;
-    } */
 /* TIPOGRAFÍA */
 .texto1 {
   color: white;
@@ -168,8 +142,7 @@ $Gris: #262626; */
 .textoSlogan {
   font-size: 2rem;
   color: white;
-  font-weight: 500;
-  /* text-transform: uppercase; */ }
+  font-weight: 500; }
 
 .texto9 {
   color: white;
@@ -189,8 +162,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #0d6efd;
-  border-color: #0d6efd;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0d6efd; }
   .btn-primary:hover {
     color: color-contrast(shade-color(#0d6efd, 15%));
     background-color: shade-color(#0d6efd, 15%);
@@ -200,8 +172,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #6c757d;
-  border-color: #6c757d;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #6c757d; }
   .btn-secondary:hover {
     color: color-contrast(shade-color(#6c757d, 15%));
     background-color: shade-color(#6c757d, 15%);
@@ -211,8 +182,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #198754;
-  border-color: #198754;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #198754; }
   .btn-success:hover {
     color: color-contrast(shade-color(#198754, 15%));
     background-color: shade-color(#198754, 15%);
@@ -222,8 +192,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #0dcaf0;
-  border-color: #0dcaf0;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0dcaf0; }
   .btn-info:hover {
     color: color-contrast(shade-color(#0dcaf0, 15%));
     background-color: shade-color(#0dcaf0, 15%);
@@ -233,8 +202,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #ffc107;
-  border-color: #ffc107;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #ffc107; }
   .btn-warning:hover {
     color: color-contrast(shade-color(#ffc107, 15%));
     background-color: shade-color(#ffc107, 15%);
@@ -244,8 +212,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #dc3545;
-  border-color: #dc3545;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #dc3545; }
   .btn-danger:hover {
     color: color-contrast(shade-color(#dc3545, 15%));
     background-color: shade-color(#dc3545, 15%);
@@ -255,8 +222,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #f8f9fa; }
   .btn-light:hover {
     color: color-contrast(shade-color(#f8f9fa, 15%));
     background-color: shade-color(#f8f9fa, 15%);
@@ -266,8 +232,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #212529;
-  border-color: #212529;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #212529; }
   .btn-dark:hover {
     color: color-contrast(shade-color(#212529, 15%));
     background-color: shade-color(#212529, 15%);
@@ -277,8 +242,7 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #EE8D35;
-  border-color: #EE8D35;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #EE8D35; }
   .btn-naranja-marca:hover {
     color: color-contrast(shade-color(#EE8D35, 15%));
     background-color: shade-color(#EE8D35, 15%);
@@ -288,29 +252,12 @@ $Gris: #262626; */
   width: 5rem;
   color: white;
   background-color: #9640cc;
-  border-color: #9640cc;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #9640cc; }
   .btn-violeta-marca:hover {
     color: color-contrast(shade-color(#9640cc, 15%));
     background-color: shade-color(#9640cc, 15%);
     border-color: tint-color(#9640cc, 10%); }
 
-/* @mixin button-variant(
-    $background, 
-    $color: white,
-     $hover-background: shade-color($background, 10%),
-    ) {
-    background-color: $background;
-    color: white;
-    
-    &:hover {
-        background: $hover-background
-      } 
-    }  */
-/* :root {
-      --animate-duration: 800ms;
-      --animate-delay: 2s;
-    } */
 .heather {
   background-color: #262626;
   height: 110px;
@@ -322,8 +269,6 @@ $Gris: #262626; */
     margin-top: 10px;
     margin-left: 1rem; }
   .heather__titulo {
-    /*  margin-top: 1.5%;
-        justify-content: space-around; */
     word-spacing: 10px;
     letter-spacing: 3px;
     text-align: center; }
@@ -344,17 +289,17 @@ $Gris: #262626; */
 
 .encabezadoMovil {
   width: 100vw;
-  /*  falta commitear esto */
+  /* el width es para poder centrar */
   margin: 0; }
 
 .container-fluid {
   overflow: hidden !important; }
 
 .menu--color {
-  background: linear-gradient(rgba(38, 38, 38, 0.99), rgba(70, 70, 70, 0.7)); }
+  background: linear-gradient(rgba(38, 38, 38, 0.98), rgba(70, 70, 70, 0.7)); }
 
 .menu--color2 {
-  background: linear-gradient(rgba(38, 38, 38, 0.99), rgba(50, 50, 50, 0.82)); }
+  background: linear-gradient(#232323, rgba(54, 54, 54, 0.95)); }
 
 .navbar {
   padding-top: 0rem;
@@ -412,6 +357,7 @@ $Gris: #262626; */
   .footer__p {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding-left: 2%;
     padding-top: 5px;
     width: 75%; }
@@ -434,11 +380,21 @@ $Gris: #262626; */
   margin-left: 0.85rem; }
 
 .mapaDeSitio a {
+  /* barra de navegacion del footer */
   color: white;
-  /* display: inline; */
-  width: 4.5rem;
-  margin-left: 0px;
   margin-right: 5px; }
+
+.link1 {
+  width: 2.7rem; }
+
+.link2 {
+  width: 3.3rem; }
+
+.link3 {
+  width: 4.2rem; }
+
+.link4 {
+  width: 3.7rem; }
 
 .logoTelFace {
   width: 32px; }
@@ -456,8 +412,7 @@ address {
   width: 5rem;
   color: white;
   background-color: #0d6efd;
-  border-color: #0d6efd;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0d6efd; }
   .btn-primary:hover {
     color: color-contrast(shade-color(#0d6efd, 15%));
     background-color: shade-color(#0d6efd, 15%);
@@ -467,8 +422,7 @@ address {
   width: 5rem;
   color: white;
   background-color: #6c757d;
-  border-color: #6c757d;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #6c757d; }
   .btn-secondary:hover {
     color: color-contrast(shade-color(#6c757d, 15%));
     background-color: shade-color(#6c757d, 15%);
@@ -478,8 +432,7 @@ address {
   width: 5rem;
   color: white;
   background-color: #198754;
-  border-color: #198754;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #198754; }
   .btn-success:hover {
     color: color-contrast(shade-color(#198754, 15%));
     background-color: shade-color(#198754, 15%);
@@ -489,8 +442,7 @@ address {
   width: 5rem;
   color: white;
   background-color: #0dcaf0;
-  border-color: #0dcaf0;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0dcaf0; }
   .btn-info:hover {
     color: color-contrast(shade-color(#0dcaf0, 15%));
     background-color: shade-color(#0dcaf0, 15%);
@@ -500,8 +452,7 @@ address {
   width: 5rem;
   color: white;
   background-color: #ffc107;
-  border-color: #ffc107;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #ffc107; }
   .btn-warning:hover {
     color: color-contrast(shade-color(#ffc107, 15%));
     background-color: shade-color(#ffc107, 15%);
@@ -511,8 +462,7 @@ address {
   width: 5rem;
   color: white;
   background-color: #dc3545;
-  border-color: #dc3545;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #dc3545; }
   .btn-danger:hover {
     color: color-contrast(shade-color(#dc3545, 15%));
     background-color: shade-color(#dc3545, 15%);
@@ -522,8 +472,7 @@ address {
   width: 5rem;
   color: white;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #f8f9fa; }
   .btn-light:hover {
     color: color-contrast(shade-color(#f8f9fa, 15%));
     background-color: shade-color(#f8f9fa, 15%);
@@ -533,8 +482,7 @@ address {
   width: 5rem;
   color: white;
   background-color: #212529;
-  border-color: #212529;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #212529; }
   .btn-dark:hover {
     color: color-contrast(shade-color(#212529, 15%));
     background-color: shade-color(#212529, 15%);
@@ -544,8 +492,7 @@ address {
   width: 5rem;
   color: white;
   background-color: #EE8D35;
-  border-color: #EE8D35;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #EE8D35; }
   .btn-naranja-marca:hover {
     color: color-contrast(shade-color(#EE8D35, 15%));
     background-color: shade-color(#EE8D35, 15%);
@@ -555,39 +502,20 @@ address {
   width: 5rem;
   color: white;
   background-color: #9640cc;
-  border-color: #9640cc;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #9640cc; }
   .btn-violeta-marca:hover {
     color: color-contrast(shade-color(#9640cc, 15%));
     background-color: shade-color(#9640cc, 15%);
     border-color: tint-color(#9640cc, 10%); }
 
-/* @mixin button-variant(
-    $background, 
-    $color: white,
-     $hover-background: shade-color($background, 10%),
-    ) {
-    background-color: $background;
-    color: white;
-    
-    &:hover {
-        background: $hover-background
-      } 
-    }  */
-/* :root {
-      --animate-duration: 800ms;
-      --animate-delay: 2s;
-    } */
 .posDeSlogan {
   align-self: center;
   text-align: center;
-  /*  width: 20%;  */
   margin-bottom: 50px;
   padding-left: 15px;
   padding-right: 6px;
   position: relative;
   bottom: 2.35rem;
-  /*   position: absolute; top: 180px; left: 20px; */
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2; }
 
@@ -721,8 +649,7 @@ address {
   max-width: 55px;
   min-height: 30px;
   min-width: 30px;
-  padding-bottom: 10px;
-  /* width: 8%; height: 100%; */ }
+  padding-bottom: 10px; }
 
 .efectoLogo {
   transform: scale(1, 1);
@@ -779,11 +706,13 @@ address {
   padding: 5px;
   margin-bottom: 1rem; }
 
+/*  genera botones para contacto */
 .btn--boton1 {
   background-color: #EE8D35;
   color: white;
   width: 4rem; }
 
+/*  genera botones para contacto */
 .btn--boton2 {
   background-color: #9640cc;
   color: white;
@@ -822,20 +751,6 @@ body {
     width: 75vw;
     transform: translateY(-11px); }
 
-/* .lineaDiv {
-    border-top: 1px solid $naranja-marca;
-    height: 1px; 
-    width: 94vw;
-    margin-bottom: 50px; 
-    margin-left: 0.625rem; 
-    transform: translate(3px,-22px);
-    } 
-.lineaDiv2 {
-    border-top: 1px solid $naranja-marca;
-    height: 1px; 
-    width: 75vw;
-    transform: translateY(-22px);
-}  */
 /*** Generales NO INDEX ***/
 .contMenu2 {
   background: linear-gradient(rgba(38, 38, 38, 0.99), rgba(50, 50, 50, 0.82)); }
@@ -844,8 +759,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #0d6efd;
-  border-color: #0d6efd;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0d6efd; }
   .btn-primary:hover {
     color: color-contrast(shade-color(#0d6efd, 15%));
     background-color: shade-color(#0d6efd, 15%);
@@ -855,8 +769,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #6c757d;
-  border-color: #6c757d;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #6c757d; }
   .btn-secondary:hover {
     color: color-contrast(shade-color(#6c757d, 15%));
     background-color: shade-color(#6c757d, 15%);
@@ -866,8 +779,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #198754;
-  border-color: #198754;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #198754; }
   .btn-success:hover {
     color: color-contrast(shade-color(#198754, 15%));
     background-color: shade-color(#198754, 15%);
@@ -877,8 +789,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #0dcaf0;
-  border-color: #0dcaf0;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0dcaf0; }
   .btn-info:hover {
     color: color-contrast(shade-color(#0dcaf0, 15%));
     background-color: shade-color(#0dcaf0, 15%);
@@ -888,8 +799,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #ffc107;
-  border-color: #ffc107;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #ffc107; }
   .btn-warning:hover {
     color: color-contrast(shade-color(#ffc107, 15%));
     background-color: shade-color(#ffc107, 15%);
@@ -899,8 +809,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #dc3545;
-  border-color: #dc3545;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #dc3545; }
   .btn-danger:hover {
     color: color-contrast(shade-color(#dc3545, 15%));
     background-color: shade-color(#dc3545, 15%);
@@ -910,8 +819,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #f8f9fa; }
   .btn-light:hover {
     color: color-contrast(shade-color(#f8f9fa, 15%));
     background-color: shade-color(#f8f9fa, 15%);
@@ -921,8 +829,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #212529;
-  border-color: #212529;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #212529; }
   .btn-dark:hover {
     color: color-contrast(shade-color(#212529, 15%));
     background-color: shade-color(#212529, 15%);
@@ -932,8 +839,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #EE8D35;
-  border-color: #EE8D35;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #EE8D35; }
   .btn-naranja-marca:hover {
     color: color-contrast(shade-color(#EE8D35, 15%));
     background-color: shade-color(#EE8D35, 15%);
@@ -943,35 +849,17 @@ body {
   width: 5rem;
   color: white;
   background-color: #9640cc;
-  border-color: #9640cc;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #9640cc; }
   .btn-violeta-marca:hover {
     color: color-contrast(shade-color(#9640cc, 15%));
     background-color: shade-color(#9640cc, 15%);
     border-color: tint-color(#9640cc, 10%); }
 
-/* @mixin button-variant(
-    $background, 
-    $color: white,
-     $hover-background: shade-color($background, 10%),
-    ) {
-    background-color: $background;
-    color: white;
-    
-    &:hover {
-        background: $hover-background
-      } 
-    }  */
-/* :root {
-      --animate-duration: 800ms;
-      --animate-delay: 2s;
-    } */
 .btn-primary {
   width: 5rem;
   color: white;
   background-color: #0d6efd;
-  border-color: #0d6efd;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0d6efd; }
   .btn-primary:hover {
     color: color-contrast(shade-color(#0d6efd, 15%));
     background-color: shade-color(#0d6efd, 15%);
@@ -981,8 +869,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #6c757d;
-  border-color: #6c757d;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #6c757d; }
   .btn-secondary:hover {
     color: color-contrast(shade-color(#6c757d, 15%));
     background-color: shade-color(#6c757d, 15%);
@@ -992,8 +879,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #198754;
-  border-color: #198754;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #198754; }
   .btn-success:hover {
     color: color-contrast(shade-color(#198754, 15%));
     background-color: shade-color(#198754, 15%);
@@ -1003,8 +889,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #0dcaf0;
-  border-color: #0dcaf0;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0dcaf0; }
   .btn-info:hover {
     color: color-contrast(shade-color(#0dcaf0, 15%));
     background-color: shade-color(#0dcaf0, 15%);
@@ -1014,8 +899,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #ffc107;
-  border-color: #ffc107;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #ffc107; }
   .btn-warning:hover {
     color: color-contrast(shade-color(#ffc107, 15%));
     background-color: shade-color(#ffc107, 15%);
@@ -1025,8 +909,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #dc3545;
-  border-color: #dc3545;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #dc3545; }
   .btn-danger:hover {
     color: color-contrast(shade-color(#dc3545, 15%));
     background-color: shade-color(#dc3545, 15%);
@@ -1036,8 +919,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #f8f9fa; }
   .btn-light:hover {
     color: color-contrast(shade-color(#f8f9fa, 15%));
     background-color: shade-color(#f8f9fa, 15%);
@@ -1047,8 +929,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #212529;
-  border-color: #212529;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #212529; }
   .btn-dark:hover {
     color: color-contrast(shade-color(#212529, 15%));
     background-color: shade-color(#212529, 15%);
@@ -1058,8 +939,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #EE8D35;
-  border-color: #EE8D35;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #EE8D35; }
   .btn-naranja-marca:hover {
     color: color-contrast(shade-color(#EE8D35, 15%));
     background-color: shade-color(#EE8D35, 15%);
@@ -1069,35 +949,17 @@ body {
   width: 5rem;
   color: white;
   background-color: #9640cc;
-  border-color: #9640cc;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #9640cc; }
   .btn-violeta-marca:hover {
     color: color-contrast(shade-color(#9640cc, 15%));
     background-color: shade-color(#9640cc, 15%);
     border-color: tint-color(#9640cc, 10%); }
 
-/* @mixin button-variant(
-    $background, 
-    $color: white,
-     $hover-background: shade-color($background, 10%),
-    ) {
-    background-color: $background;
-    color: white;
-    
-    &:hover {
-        background: $hover-background
-      } 
-    }  */
-/* :root {
-      --animate-duration: 800ms;
-      --animate-delay: 2s;
-    } */
 .btn-primary {
   width: 5rem;
   color: white;
   background-color: #0d6efd;
-  border-color: #0d6efd;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0d6efd; }
   .btn-primary:hover {
     color: color-contrast(shade-color(#0d6efd, 15%));
     background-color: shade-color(#0d6efd, 15%);
@@ -1107,8 +969,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #6c757d;
-  border-color: #6c757d;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #6c757d; }
   .btn-secondary:hover {
     color: color-contrast(shade-color(#6c757d, 15%));
     background-color: shade-color(#6c757d, 15%);
@@ -1118,8 +979,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #198754;
-  border-color: #198754;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #198754; }
   .btn-success:hover {
     color: color-contrast(shade-color(#198754, 15%));
     background-color: shade-color(#198754, 15%);
@@ -1129,8 +989,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #0dcaf0;
-  border-color: #0dcaf0;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0dcaf0; }
   .btn-info:hover {
     color: color-contrast(shade-color(#0dcaf0, 15%));
     background-color: shade-color(#0dcaf0, 15%);
@@ -1140,8 +999,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #ffc107;
-  border-color: #ffc107;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #ffc107; }
   .btn-warning:hover {
     color: color-contrast(shade-color(#ffc107, 15%));
     background-color: shade-color(#ffc107, 15%);
@@ -1151,8 +1009,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #dc3545;
-  border-color: #dc3545;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #dc3545; }
   .btn-danger:hover {
     color: color-contrast(shade-color(#dc3545, 15%));
     background-color: shade-color(#dc3545, 15%);
@@ -1162,8 +1019,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #f8f9fa; }
   .btn-light:hover {
     color: color-contrast(shade-color(#f8f9fa, 15%));
     background-color: shade-color(#f8f9fa, 15%);
@@ -1173,8 +1029,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #212529;
-  border-color: #212529;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #212529; }
   .btn-dark:hover {
     color: color-contrast(shade-color(#212529, 15%));
     background-color: shade-color(#212529, 15%);
@@ -1184,8 +1039,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #EE8D35;
-  border-color: #EE8D35;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #EE8D35; }
   .btn-naranja-marca:hover {
     color: color-contrast(shade-color(#EE8D35, 15%));
     background-color: shade-color(#EE8D35, 15%);
@@ -1195,8 +1049,7 @@ body {
   width: 5rem;
   color: white;
   background-color: #9640cc;
-  border-color: #9640cc;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #9640cc; }
   .btn-violeta-marca:hover {
     color: color-contrast(shade-color(#9640cc, 15%));
     background-color: shade-color(#9640cc, 15%);
@@ -1220,8 +1073,7 @@ img {
   width: 5rem;
   color: white;
   background-color: #0d6efd;
-  border-color: #0d6efd;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0d6efd; }
   .btn-primary:hover {
     color: color-contrast(shade-color(#0d6efd, 15%));
     background-color: shade-color(#0d6efd, 15%);
@@ -1231,8 +1083,7 @@ img {
   width: 5rem;
   color: white;
   background-color: #6c757d;
-  border-color: #6c757d;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #6c757d; }
   .btn-secondary:hover {
     color: color-contrast(shade-color(#6c757d, 15%));
     background-color: shade-color(#6c757d, 15%);
@@ -1242,8 +1093,7 @@ img {
   width: 5rem;
   color: white;
   background-color: #198754;
-  border-color: #198754;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #198754; }
   .btn-success:hover {
     color: color-contrast(shade-color(#198754, 15%));
     background-color: shade-color(#198754, 15%);
@@ -1253,8 +1103,7 @@ img {
   width: 5rem;
   color: white;
   background-color: #0dcaf0;
-  border-color: #0dcaf0;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #0dcaf0; }
   .btn-info:hover {
     color: color-contrast(shade-color(#0dcaf0, 15%));
     background-color: shade-color(#0dcaf0, 15%);
@@ -1264,8 +1113,7 @@ img {
   width: 5rem;
   color: white;
   background-color: #ffc107;
-  border-color: #ffc107;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #ffc107; }
   .btn-warning:hover {
     color: color-contrast(shade-color(#ffc107, 15%));
     background-color: shade-color(#ffc107, 15%);
@@ -1275,8 +1123,7 @@ img {
   width: 5rem;
   color: white;
   background-color: #dc3545;
-  border-color: #dc3545;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #dc3545; }
   .btn-danger:hover {
     color: color-contrast(shade-color(#dc3545, 15%));
     background-color: shade-color(#dc3545, 15%);
@@ -1286,8 +1133,7 @@ img {
   width: 5rem;
   color: white;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #f8f9fa; }
   .btn-light:hover {
     color: color-contrast(shade-color(#f8f9fa, 15%));
     background-color: shade-color(#f8f9fa, 15%);
@@ -1297,8 +1143,7 @@ img {
   width: 5rem;
   color: white;
   background-color: #212529;
-  border-color: #212529;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #212529; }
   .btn-dark:hover {
     color: color-contrast(shade-color(#212529, 15%));
     background-color: shade-color(#212529, 15%);
@@ -1308,8 +1153,7 @@ img {
   width: 5rem;
   color: white;
   background-color: #EE8D35;
-  border-color: #EE8D35;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #EE8D35; }
   .btn-naranja-marca:hover {
     color: color-contrast(shade-color(#EE8D35, 15%));
     background-color: shade-color(#EE8D35, 15%);
@@ -1319,29 +1163,12 @@ img {
   width: 5rem;
   color: white;
   background-color: #9640cc;
-  border-color: #9640cc;
-  /*   @include box-shadow($btn-box-shadow); */ }
+  border-color: #9640cc; }
   .btn-violeta-marca:hover {
     color: color-contrast(shade-color(#9640cc, 15%));
     background-color: shade-color(#9640cc, 15%);
     border-color: tint-color(#9640cc, 10%); }
 
-/* @mixin button-variant(
-    $background, 
-    $color: white,
-     $hover-background: shade-color($background, 10%),
-    ) {
-    background-color: $background;
-    color: white;
-    
-    &:hover {
-        background: $hover-background
-      } 
-    }  */
-/* :root {
-      --animate-duration: 800ms;
-      --animate-delay: 2s;
-    } */
 .root {
   --bs-gutter-x: 0rem !important; }
 
@@ -1495,21 +1322,28 @@ img {
   .footer__p {
     width: 73%;
     padding-left: 10px;
-    padding-top: 3px;
+    padding-top: 5px;
     margin-left: 0.1rem; }
   .footer__div {
     width: 25%;
     padding-left: 0%;
-    padding-right: 0%; }
+    padding-right: 0%;
+    padding-bottom: 5ps; }
   .mapaDeSitio {
     font-size: 12px;
     margin-left: 0rem;
     width: 90vw; }
   .mapaDeSitio a {
-    width: 3rem;
-    margin-left: 0px;
     padding: 5px;
     margin-right: 3px; }
+  .link1 {
+    width: 2.2rem; }
+  .link2 {
+    width: 2.9rem; }
+  .link3 {
+    width: 3.6rem; }
+  .link4 {
+    width: 3.4rem; }
   .efectoLogo {
     padding: 0; }
   .logoTelFace {

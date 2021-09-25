@@ -3,12 +3,10 @@
 .posDeSlogan {
     align-self: center;
     text-align: center;
-   /*  width: 20%;  */
     margin-bottom: 50px;
     padding-left: 15px;
     padding-right: 6px;
     position: relative; bottom: 2.35rem; 
-  /*   position: absolute; top: 180px; left: 20px; */
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
     
@@ -158,7 +156,6 @@
     min-height: 30px ;
     min-width: 30px;
     padding-bottom: 10px; 
-    /* width: 8%; height: 100%; */
 }  
 
 .efectoLogo {
@@ -220,7 +217,7 @@
     padding: 5px;
     margin-bottom: 1rem;
 }
-@each $boton, $color in $mapaColores{
+@each $boton, $color in $mapaColores{  /*  genera botones para contacto */
     .btn--#{$boton}{
         background-color: $color;
         color:white;
@@ -265,20 +262,6 @@ body {
         transform: translateY(-11px);
     }
 }
-/* .lineaDiv {
-    border-top: 1px solid $naranja-marca;
-    height: 1px; 
-    width: 94vw;
-    margin-bottom: 50px; 
-    margin-left: 0.625rem; 
-    transform: translate(3px,-22px);
-    } 
-.lineaDiv2 {
-    border-top: 1px solid $naranja-marca;
-    height: 1px; 
-    width: 75vw;
-    transform: translateY(-22px);
-}  */
 
 /*** Generales NO INDEX ***/
 .contMenu2 {

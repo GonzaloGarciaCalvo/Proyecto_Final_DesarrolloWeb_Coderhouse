@@ -22,14 +22,13 @@
     color: $color;
     @include gradient-bg($background);
     border-color: $border;
-    /*   @include box-shadow($btn-box-shadow); */
     &:hover {
         color: $hover-color;
         @include gradient-bg($hover-background);
         border-color: $hover-border;
     }
 }
-// bucle modificado (con width) que genera los botones
+// bucle modificado (con width) que genera los botones de contacto.html
 @each $background, $value in $theme-colors {
     .btn-#{$background} {
         width: 5rem; 

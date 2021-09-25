@@ -189,13 +189,14 @@
         &__p {
             width: 73%; 
             padding-left: 10px;
-            padding-top: 3px;
+            padding-top: 5px;
             margin-left: 0.1rem;
         }
         &__div {
             width: 25%;
             padding-left: 0%; 
             padding-right: 0%;
+            padding-bottom: 5ps;
         }
     }
    .mapaDeSitio {
@@ -204,11 +205,22 @@
         width: 90vw;
     }
     .mapaDeSitio a {
-        width:3rem;
-        margin-left: 0px;
         padding: 5px;
         margin-right: 3px;
     } 
+    .link1 {
+        width: 2.2rem;
+    }
+    .link2 {
+        width: 2.9rem;
+    
+    }
+    .link3 {
+        width: 3.6rem;
+    }
+    .link4 {
+        width: 3.4rem;
+    }
     .efectoLogo {
         padding: 0;
     }

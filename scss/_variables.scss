@@ -79,7 +79,6 @@ $enable-gradients: true;
   color: $color;
   @include gradient-bg($background);
   border-color: $border;
-/*   @include box-shadow($btn-box-shadow); */
 
   &:hover {
     color: $hover-color;
@@ -94,24 +93,4 @@ $enable-gradients: true;
         @include button-variant($value, $value);
     }
 }
-
-/* @mixin button-variant(
-    $background, 
-    $color: white,
-     $hover-background: shade-color($background, 10%),
-    ) {
-    background-color: $background;
-    color: white;
-    
-    &:hover {
-        background: $hover-background
-      } 
-    }  */
-    // bucle para generar los botones personalizados
-    
-    // cambio de delay de la animacion de animate.css
-    /* :root {
-      --animate-duration: 800ms;
-      --animate-delay: 2s;
-    } */
 
