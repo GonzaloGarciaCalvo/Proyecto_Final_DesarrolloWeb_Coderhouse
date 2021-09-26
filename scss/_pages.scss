@@ -126,7 +126,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center; 
-        width:90%;
+        /* width:90%; */
+        width: 40vw;
         padding-left: 60px;
         padding-top: 20px;
         p {
@@ -196,11 +197,7 @@
 }
 .videoEntorno {
     width: 60vw;
-   /*  margin-left: 4rem;*/
     margin-top: 3rem; 
-   /*  display: flex;
-    flex-direction: column;
-    align-self: center; */
 }
 // CONTACTO 
 .divContacto {

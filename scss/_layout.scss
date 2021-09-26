@@ -63,7 +63,16 @@
 } 
 .navbar-collapse {
     color: $naranja-marca;
+    text-align: end;
+    margin-right: 10px;
+    &:hover {
+        color: $naranja-marca;
+        }
 }
+.navbar-collapse .nav-link :hover {
+            color: $naranja-marca;
+        }
+
 //animacion adaptada de animate.css, la original causa problemas en la carga de Home
 @keyframes heartBeat {
     0% {

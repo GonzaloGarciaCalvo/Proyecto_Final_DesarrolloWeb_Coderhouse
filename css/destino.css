@@ -314,6 +314,13 @@ $Gris: #262626; */
     color: #EE8D35; }
 
 .navbar-collapse {
+  color: #EE8D35;
+  text-align: end;
+  margin-right: 10px; }
+  .navbar-collapse:hover {
+    color: #EE8D35; }
+
+.navbar-collapse .nav-link :hover {
   color: #EE8D35; }
 
 @keyframes heartBeat {
@@ -624,7 +631,8 @@ address {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  /* width:90%; */
+  width: 40vw;
   padding-left: 60px;
   padding-top: 20px; }
   .box__items p {
@@ -686,11 +694,7 @@ address {
 
 .videoEntorno {
   width: 60vw;
-  /*  margin-left: 4rem;*/
-  margin-top: 3rem;
-  /*  display: flex;
-    flex-direction: column;
-    align-self: center; */ }
+  margin-top: 3rem; }
 
 .divContacto {
   margin-left: 0px;
@@ -1203,6 +1207,9 @@ img {
     font-size: 16px; }
   .texto3 {
     font-size: 1rem; }
+  .texto8 {
+    font-size: 1.2rem;
+    padding-top: 0.5rem; }
   .texto9 {
     color: white;
     font-size: 12px; }
@@ -1277,6 +1284,12 @@ img {
     padding-left: 0%; }
   .cajaServC p {
     margin-left: 5px; }
+  .box__items {
+    width: 90%;
+    padding-left: 0px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto; }
   .recuadroContacto {
     width: 90vw;
     border-left: transparent;
@@ -1285,6 +1298,8 @@ img {
     width: 100%;
     padding-left: 10px;
     padding-right: 20px; }
+  .col-sm-12.anexo {
+    width: 95vw; }
   .texto5 {
     font-size: 1.4rem; }
   .cabeceraServ {

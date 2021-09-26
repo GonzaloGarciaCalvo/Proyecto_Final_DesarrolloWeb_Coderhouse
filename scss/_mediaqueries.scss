@@ -38,6 +38,10 @@
     .texto3 {
         font-size: 1rem;
     }
+    .texto8 {
+        font-size: 1.2rem;
+        padding-top: 0.5rem;
+    } 
     .texto9 {
         color: $colorTexto; 
         font-size: 12px;
@@ -129,6 +133,13 @@
     .cajaServC p {
         margin-left: 5px;
     }
+    .box__items  {
+            width:90%;
+            padding-left: 0px;
+            padding-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        } 
     .recuadroContacto {
         width: 90vw;
         border-left: transparent;
@@ -138,7 +149,10 @@
     width:100%;
     padding-left: 10px;
     padding-right:20px ;
-}
+    }
+    .col-sm-12.anexo { 
+        width: 95vw;
+    }
     .texto5 {
     font-size: 1.4rem;
     }   
