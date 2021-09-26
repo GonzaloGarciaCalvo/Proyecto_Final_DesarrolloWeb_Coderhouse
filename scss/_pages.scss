@@ -72,20 +72,28 @@
 .row.espaciadoHome {
     --bs-gutter-x: 0rem;
 }
-/* .col-4 {
-    width: 28%;
-} */
-/* .col-lg-4 {
-    width: 3%;
-} */
 .bg-dark {
     background-color: #262626 !important;
 }
 .recuadroFinal {
-    text-align: left
+    text-align: left;
+
 }
 // LOCALES
 
+/* .columnaLoc {
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto
+}  */
+.margenLocales {
+    padding-right: 0vw;
+}
+.boxLocales {
+    min-width: 13rem;
+    max-width: 16rem;
+  }
 .recuadroLocales {
     @extend .recuadro;
     border:1px solid $naranja-marca;
@@ -96,11 +104,12 @@
     height: 12rem;
 }
 .cabRecLocales {
+    font-size: 1.3rem;
     @extend .cabecera;
     @include minmax-W(13rem, 16rem)
 }
 .margenLocales {
-    margin-left:3.5rem;
+    margin-left:0rem;
 }
 .posFotos{
     margin-left: 40px;
@@ -158,7 +167,6 @@
     min-width: 30px;
     padding-bottom: 10px; 
 }  
-
 .efectoLogo {
     transform: scale(1,1);
     transition: all 1s ;
@@ -192,7 +200,6 @@
     width: 40vw;
     height: auto;
     border:1px solid gray;
-    /* margin-left: 4rem; */
     margin-top: 3rem;
 }
 .videoEntorno {

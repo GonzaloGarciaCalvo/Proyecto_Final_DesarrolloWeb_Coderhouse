@@ -581,17 +581,24 @@ address {
 .row.espaciadoHome {
   --bs-gutter-x: 0rem; }
 
-/* .col-4 {
-    width: 28%;
-} */
-/* .col-lg-4 {
-    width: 3%;
-} */
 .bg-dark {
   background-color: #262626 !important; }
 
 .recuadroFinal {
   text-align: left; }
+
+/* .columnaLoc {
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto
+}  */
+.margenLocales {
+  padding-right: 0vw; }
+
+.boxLocales {
+  min-width: 13rem;
+  max-width: 16rem; }
 
 .recuadroLocales {
   border: 1px solid #EE8D35;
@@ -603,11 +610,12 @@ address {
   height: 12rem; }
 
 .cabRecLocales {
+  font-size: 1.3rem;
   min-width: 13rem;
   max-width: 16rem; }
 
 .margenLocales {
-  margin-left: 3.5rem; }
+  margin-left: 0rem; }
 
 .posFotos {
   margin-left: 40px; }
@@ -689,7 +697,6 @@ address {
   width: 40vw;
   height: auto;
   border: 1px solid gray;
-  /* margin-left: 4rem; */
   margin-top: 3rem; }
 
 .videoEntorno {
@@ -1186,12 +1193,7 @@ img {
 
 @media (min-width: 992px) and (max-width: 1186px) {
   .texto1 {
-    font-size: 35px; }
-  .margenLocales {
-    margin-left: 5rem; }
-  .espaciadoHome {
-    /*  chequear esto */
-    padding-left: 1.5rem; } }
+    font-size: 35px; } }
 
 @media (min-width: 1400px) and (max-width: 1900px) {
   .texto1 {
@@ -1237,7 +1239,7 @@ img {
   .espaciadoHome {
     padding-left: 0.25rem; }
   .row.espaciadoHome {
-    /* width: 85%; */
+    /* chequear si sigue siendo necesario */
     margin-left: 1rem; }
   .col-sm-12 {
     width: 372px; }
@@ -1258,25 +1260,23 @@ img {
     flex-direction: column;
     align-items: center; }
   .encabezadoMovil__titulo {
-    /* transform: translate(35px, 10px); */
     font-size: 24px;
     text-align: center; }
   .margenLocales {
-    margin-left: 0.6rem; }
+    margin-left: 0rem; }
+  .boxLocales {
+    width: 14rem; }
   .recuadroLocales {
-    padding-left: 45px;
+    padding-left: 35px;
     padding-top: 15px;
     margin-bottom: 3rem;
-    margin-left: 2rem;
-    max-width: 16rem;
-    min-width: 13rem;
+    width: 14rem;
     height: 12rem; }
   .cabRecLocales {
     width: 100%;
-    font-size: 1.5rem;
-    max-width: 16rem;
-    min-width: 13rem;
-    margin-left: 2rem; }
+    font-size: 1.3rem;
+    width: 14rem;
+    min-width: 13rem; }
   .row.miCarrusel1 {
     /* quita el padding de Bootstrap del carrusel*/
     padding-left: 0%; }
@@ -1461,40 +1461,36 @@ img {
       border-color: tint-color(#9640cc, 10%); } }
 
 /*Tablet*/
-@media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
-  /* .row.heather {
-    display: none !important;
-    } */
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation: portrait) {
   .texto1 {
     font-size: 1.6rem; }
   .texto2 {
     font-size: 1.4rem; }
-  .textoSlogan {
-    font-size: 1.45rem; }
   .texto3 {
     font-size: 1.1rem; }
   .tituloMovil {
     transform: translate(35px, 10px);
     font-size: 28px; }
-  .margenLocales {
-    margin-left: 1.5rem; }
-  .recuadroLocales {
-    padding-left: 45px;
-    padding-top: 15px;
-    margin-bottom: 3rem;
-    margin-left: 2rem;
-    max-width: 16rem;
-    min-width: 13rem;
-    height: 12rem; }
-  .cabRecLocales {
-    width: 100%;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 16rem;
-    min-width: 13rem;
-    margin-left: 2rem; }
+  /* .boxLocales {
+        max-width: 16rem;
+        min-width: 13rem;
+    }
+    .recuadroLocales {   
+        width: 100%;                
+        padding-left: 45px;
+        padding-top: 15px;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+        height: 12rem;
+    }
+    .cabRecLocales {
+        width: 100%;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2rem;
+    } */
   .row.miCarrusel1 {
     /* quita el padding de Bootstrap del carrusel*/
     padding-left: 0%; }
@@ -1515,16 +1511,6 @@ img {
   .cajaFooter {
     width: 97%;
     height: 2.4rem; }
-  .pFooter {
-    padding-left: 2%;
-    width: 75%; }
-  .divFooter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 1.1%;
-    padding-left: 1.1%;
-    width: 25%; }
   .mapaUb {
     width: 70%;
     height: 250px; }
@@ -1547,16 +1533,12 @@ img {
   .texto1 {
     font-size: 2.25rem; }
   .texto2 {
-    font-size: 1.6rem; }
-  .textoSlogan {
-    font-size: 1.65rem; } }
+    font-size: 1.6rem; } }
 
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation: landscape) {
   .texto1 {
     font-size: 1.8rem; }
   .texto2 {
-    font-size: 1.4rem; }
-  .textoSlogan {
     font-size: 1.4rem; } }
 
 @media (min-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) {
@@ -1564,8 +1546,6 @@ img {
     font-size: 2.3rem; }
   .texto2 {
     font-size: 1.4rem; }
-  .textoslogan {
-    font-size: 1.5rem; }
   .cajaMenu {
     height: 100%;
     width: 65%; } }

@@ -11,12 +11,6 @@
     .texto1 {
         font-size: 35px;
     }
-    .margenLocales {
-        margin-left:5rem;
-    }
-    .espaciadoHome {    /*  chequear esto */
-        padding-left: 1.5rem;
-    }
 }
 @media (min-width:1400px) and (max-width:1900px) {
     .texto1 {
@@ -74,8 +68,7 @@
     .espaciadoHome {
         padding-left: 0.25rem;
     }
-    .row.espaciadoHome {    //chequear si falta commit de esto
-        /* width: 85%; */
+    .row.espaciadoHome {    /* chequear si sigue siendo necesario */
         margin-left: 1rem;
     } 
     .col-sm-12 { 
@@ -101,28 +94,27 @@
         align-items: center;
     }
     .encabezadoMovil__titulo {
-        /* transform: translate(35px, 10px); */  //reemplazado por ultimos cambios no commiteados
         font-size: 24px;
         text-align: center;
     }
     .margenLocales {
-        margin-left:0.6rem;
+        margin-left:0rem;
+    }
+    .boxLocales {
+        width: 14rem;
     }
     .recuadroLocales {                   
-        padding-left: 45px;
+        padding-left: 35px;
         padding-top: 15px;
         margin-bottom: 3rem;
-        margin-left: 2rem;
-        max-width: 16rem;
-        min-width: 13rem;
+        width: 14rem;
         height: 12rem;
     }
     .cabRecLocales {
         width: 100%;
-        font-size: 1.5rem;
-        max-width: 16rem;
+        font-size: 1.3rem;
+        width: 14rem;
         min-width: 13rem;
-        margin-left: 2rem;
     }
     .row.miCarrusel1 {    /* quita el padding de Bootstrap del carrusel*/
         padding-left: 0%;
@@ -254,19 +246,13 @@
 }
 
     /*Tablet*/
-@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) { 
-    /* .row.heather {
-    display: none !important;
-    } */
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) { 
     .texto1 {
         font-size: 1.6rem;
     }
     .texto2 {
     font-size: 1.4rem;
-    }
-    .textoSlogan {
-    font-size: 1.45rem;
-    }       
+    }  
     .texto3 {
     font-size: 1.1rem;
     }
@@ -274,16 +260,16 @@
     transform: translate(35px, 10px);
     font-size: 28px;
     }
-    .margenLocales {
-    margin-left:1.5rem;
+    /* .boxLocales {
+        max-width: 16rem;
+        min-width: 13rem;
     }
-    .recuadroLocales {                   
+    .recuadroLocales {   
+        width: 100%;                
         padding-left: 45px;
         padding-top: 15px;
         margin-bottom: 3rem;
         margin-left: 2rem;
-        max-width: 16rem;
-        min-width: 13rem;
         height: 12rem;
     }
     .cabRecLocales {
@@ -292,10 +278,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 16rem;
-        min-width: 13rem;
         margin-left: 2rem;
-    }
+    } */
     .row.miCarrusel1 {    /* quita el padding de Bootstrap del carrusel*/
         padding-left: 0%;
     }
@@ -322,18 +306,6 @@
         width: 97%;
         height: 2.4rem;
     }
-    .pFooter {
-        padding-left: 2%;
-        width: 75%;  
-    }
-    .divFooter{ 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-right: 1.1%;
-        padding-left: 1.1%; 
-        width: 25%;
-    }
     .mapaUb {
         width: 70%;
         height: 250px;
@@ -356,7 +328,6 @@
     margin-left: 1.8rem;
     }    
 } 
- 
     /*landscape*/
 @media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
     .texto1 {
@@ -365,9 +336,6 @@
     .texto2 {
         font-size: 1.6rem;
     } 
-    .textoSlogan {
-        font-size: 1.65rem;
-    }
 }
  
 @media (min-width: 576px) and (max-width: 991.98px)and (orientation:landscape) {
@@ -376,10 +344,7 @@
     }
     .texto2 {
         font-size: 1.4rem;
-    }
-    .textoSlogan {
-        font-size: 1.4rem;
-    }               
+    }          
 }
  
  @media (min-width:991.98px ) and (max-width: 1199.98px )and (orientation:landscape) {
@@ -388,9 +353,6 @@
     }
     .texto2 {
         font-size: 1.4rem;
-    } 
-    .textoslogan {
-        font-size: 1.5rem;
     } 
     .cajaMenu {
             height: 100%;
