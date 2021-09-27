@@ -32,6 +32,9 @@
     .texto3 {
         font-size: 1rem;
     }
+    .texto5 {
+        font-size: 1.1rem;
+    }
     .texto8 {
         font-size: 1.2rem;
         padding-top: 0.5rem;
@@ -62,6 +65,7 @@
             border-top: 1px solid $naranja-marca;
             height: 1px; 
             width: 75vw;
+            min-width: 280px;
             transform: translateY(-10px);
         }
     }
@@ -69,13 +73,7 @@
         /* padding-left: 2.5vw; */
         margin-left: 2vw;
     }
-}
-/*     .row.espaciadoHome {   */ /* chequear si sigue siendo necesario */
-    /*  margin-left: 1rem;
-    }  */
-    /* .col-sm-12 { 
-        width: 320px;
-    } */
+/* } */
     .col-sm-12.espaciadoHome {
         margin-left: 0rem;
         padding-right: 0rem;
@@ -141,41 +139,16 @@
     .col-sm-12.anexo { 
         width: 95vw;
     }
-    .texto5 {
-    font-size: 1.4rem;
-    }   
     .cabeceraServ {
     margin: 0 0 1.6rem 0;
     font-size: 1.7rem;
     width: 90%;
     }
-    /* .posDeSlogan {
-    width: 80%; 
-    margin-bottom: 00px;
-    position: relative; bottom: 3.5rem; left: 1.8rem;
-    background-color: rgba(0,0,0,0.4);
-    } */
-    .mapaUb {
-    width: 70%;
-    height: 250px;
-    }
-    .mapaRest {
-    width: 70%;
-    height: 250px;
-    margin-left: 1.8rem;
-    } 
+    
     .margenUb {
-    margin-left: 2rem ;
+    margin-left: 0.8rem ;
     }
-    .videoEntorno {
-    width: 60vw;
-    margin-left: 1.8rem;
-    }
-    .mapaUb {
-    width: 75%;
-    height: 250px;
-    margin-left: 1.8rem;
-    }
+    
     .footer {
         &__direccion {
             padding-left: 10px;
@@ -233,10 +206,11 @@
         width: 19px;
     }
     // bucle modificado (con width) que genera los botones de contacto.html
-@each $background, $value in $theme-colors {
-    .btn-#{$background} {
+    @each $background, $value in $theme-colors {
+        .btn-#{$background} {
         width: 6rem; 
         @include button-variant($value, $value);
+        }
     }
 }
     /*Tablet*/
@@ -300,48 +274,28 @@
         width: 97%;
         height: 2.4rem;
     }
-    .mapaUb {
-        width: 70%;
-        height: 250px;
-    }
-    .mapaRest {
-    width: 70%;
-    height: 250px;
-    margin-left: 1.8rem;
-    } 
-    .margenUb {
-    margin-left: 0rem ;
-    }
-    .videoEntorno {
-    width: 60vw;
-    margin-left: 1.8rem;
-    }
-    .mapaUb {
-    width: 75%;
-    height: 250px;
-    margin-left: 1.8rem;
-    }    
-} 
+/*     .margenUb {
+    margin-left: 0rem ;   
+}  */
     /*landscape*/
-@media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+/* @media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
     .texto1 {
         font-size: 2.25rem;
     }
     .texto2 {
         font-size: 1.6rem;
     } 
-}
+} */
  
-@media (min-width: 576px) and (max-width: 991.98px)and (orientation:landscape) {
+/* @media (min-width: 576px) and (max-width: 991.98px)and (orientation:landscape) {
     .texto1 {
         font-size: 1.8rem;
     }
     .texto2 {
         font-size: 1.4rem;
     }          
-}
- 
- @media (min-width:991.98px ) and (max-width: 1199.98px )and (orientation:landscape) {
+} */
+/* @media (min-width:991.98px ) and (max-width: 1199.98px )and (orientation:landscape) {
     .texto1 {
         font-size: 2.3rem;
     }
@@ -353,4 +307,5 @@
             width: 65%;
     }   
     
+} */
 }

@@ -176,24 +176,23 @@
 .skewxCr {
     transform:skewX(15deg);
 }
-.videoEntorno {
-    width: 60vw;
-}
 .mapaUb {
-    width: 35vw;
-    height: 30vw;
+    width: 60vw;
+    height: 60vw;
+    min-width: 280px;
     border:1px solid gray;
-    margin-left: 4rem;
     margin-top: 1rem;
 }
 .mapaRest {
-    width: 40vw;
-    height: auto;
+    width: 60vw;
+    min-width: 280px;
+    height: 60vw1;
     border:1px solid gray;
     margin-top: 3rem;
 }
 .videoEntorno {
     width: 60vw;
+    min-width: 280px;
     margin-top: 3rem; 
 }
 // CONTACTO 
