@@ -17,7 +17,7 @@
         font-size: 50px;
     }
     .espaciadoHome {
-        padding-left: 6.5rem;
+        padding-left: 0rem;
     }
 }
 
@@ -66,14 +66,15 @@
         }
     }
     .espaciadoHome {
-        padding-left: 0.25rem;
+        padding-left: 2.5vw;
     }
-    .row.espaciadoHome {    /* chequear si sigue siendo necesario */
-        margin-left: 1rem;
-    } 
-    .col-sm-12 { 
-        width: 372px;
-    }
+}
+/*     .row.espaciadoHome {   */ /* chequear si sigue siendo necesario */
+    /*  margin-left: 1rem;
+    }  */
+    /* .col-sm-12 { 
+        width: 320px;
+    } */
     .col-sm-12.espaciadoHome {
         margin-left: 0rem;
         padding-right: 0rem;
@@ -83,15 +84,9 @@
         margin-bottom: 3rem;
         padding-left: 5px;
         height: 16.5rem;
-        width: 18.5rem;
     }
     .cabeceraRecuadro {
-        width: 18.5rem;
-        padding-left: 0px;
         font-size: 1.3rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .encabezadoMovil__titulo {
         font-size: 24px;
@@ -153,12 +148,12 @@
     font-size: 1.7rem;
     width: 90%;
     }
-    .posDeSlogan {
+    /* .posDeSlogan {
     width: 80%; 
     margin-bottom: 00px;
     position: relative; bottom: 3.5rem; left: 1.8rem;
     background-color: rgba(0,0,0,0.4);
-    }
+    } */
     .mapaUb {
     width: 70%;
     height: 250px;
@@ -243,8 +238,6 @@
         @include button-variant($value, $value);
     }
 }
-}
-
     /*Tablet*/
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) { 
     .texto1 {

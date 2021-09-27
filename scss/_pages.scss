@@ -38,12 +38,20 @@
     min-width: $min-width;
     max-width: $max-width;
 }
-.recuadroHome {
+/* .recuadroHome {
     @extend .recuadro;
     padding-left: 15px;
     padding-top: 5px;
     margin-bottom: 3rem;
     @include minmax-W(18.5rem, 19rem);
+    height: 16rem;
+} */
+.recuadroHome {
+    @extend .recuadro;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-bottom: 3rem;
+    width: 19rem;
     height: 16rem;
 }
 .cabecera {
@@ -59,10 +67,10 @@
 .cabeceraRecuadro {
     @extend .cabecera;
     font-size: 1.5rem;
-    @include minmax-W(18.5rem, 19rem);
+    width: 19rem;
 }
-.espaciadoHome {
-    padding-left: 0rem;
+.espaciadoHome {        /* solucion para un margin-right en Home que no puedo quitar */
+    padding-left: 0.5rem; 
 }
 .prueba {
     display: flex;
@@ -100,7 +108,8 @@
     padding-left: 45px;
     padding-top: 15px;
     margin-bottom: 3rem;
-    @include minmax-W(13rem, 16rem);
+    width: 16rem;
+    /* @include minmax-W(13rem, 16rem); */
     height: 12rem;
 }
 .cabRecLocales {

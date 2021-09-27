@@ -548,12 +548,19 @@ address {
   align-items: flex-start;
   justify-content: flex-start; }
 
+/* .recuadroHome {
+    @extend .recuadro;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-bottom: 3rem;
+    @include minmax-W(18.5rem, 19rem);
+    height: 16rem;
+} */
 .recuadroHome {
   padding-left: 15px;
   padding-top: 5px;
   margin-bottom: 3rem;
-  min-width: 18.5rem;
-  max-width: 19rem;
+  width: 19rem;
   height: 16rem; }
 
 .cabecera, .cabeceraRecuadro, .cabRecLocales {
@@ -567,11 +574,11 @@ address {
 
 .cabeceraRecuadro {
   font-size: 1.5rem;
-  min-width: 18.5rem;
-  max-width: 19rem; }
+  width: 19rem; }
 
 .espaciadoHome {
-  padding-left: 0rem; }
+  /* solucion para un margin-right en Home que no puedo quitar */
+  padding-left: 0.5rem; }
 
 .prueba {
   display: flex;
@@ -605,8 +612,8 @@ address {
   padding-left: 45px;
   padding-top: 15px;
   margin-bottom: 3rem;
-  min-width: 13rem;
-  max-width: 16rem;
+  width: 16rem;
+  /* @include minmax-W(13rem, 16rem); */
   height: 12rem; }
 
 .cabRecLocales {
@@ -1196,7 +1203,7 @@ img {
   .texto1 {
     font-size: 50px; }
   .espaciadoHome {
-    padding-left: 6.5rem; } }
+    padding-left: 0rem; } }
 
 /*    Movil    */
 @media (max-width: 767px) {
@@ -1234,228 +1241,268 @@ img {
       width: 75vw;
       transform: translateY(-10px); }
   .espaciadoHome {
-    padding-left: 0.25rem; }
-  .row.espaciadoHome {
-    /* chequear si sigue siendo necesario */
-    margin-left: 1rem; }
-  .col-sm-12 {
-    width: 372px; }
-  .col-sm-12.espaciadoHome {
-    margin-left: 0rem;
-    padding-right: 0rem; }
-  .recuadroHome {
-    padding-top: 5px;
-    margin-bottom: 3rem;
-    padding-left: 5px;
-    height: 16.5rem;
-    width: 18.5rem; }
-  .cabeceraRecuadro {
-    width: 18.5rem;
-    padding-left: 0px;
-    font-size: 1.3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .encabezadoMovil__titulo {
-    font-size: 24px;
-    text-align: center; }
-  .margenLocales {
-    margin-left: 0rem; }
-  .boxLocales {
-    width: 14rem; }
-  .recuadroLocales {
-    padding-left: 10px;
-    padding-top: 15px;
-    margin-bottom: 3rem;
-    width: 14rem;
-    height: 12rem; }
-  .cabRecLocales {
-    width: 100%;
-    font-size: 1.3rem;
-    width: 14rem;
-    min-width: 13rem; }
-  .row.miCarrusel1 {
-    /* quita el padding de Bootstrap del carrusel*/
-    padding-left: 0%; }
-  .row.miCarrusel2 {
-    padding-left: 0%; }
-  .cajaServC p {
-    margin-left: 5px; }
-  .box__items {
-    width: 90%;
-    padding-left: 0px;
-    padding-top: 20px;
-    margin-left: auto;
-    margin-right: auto; }
-  .recuadroContacto {
-    width: 90vw;
-    border-left: transparent;
-    border-right: transparent; }
-  .cajaServC {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 20px; }
-  .col-sm-12.anexo {
-    width: 95vw; }
-  .texto5 {
-    font-size: 1.4rem; }
-  .cabeceraServ {
-    margin: 0 0 1.6rem 0;
-    font-size: 1.7rem;
-    width: 90%; }
-  .posDeSlogan {
-    width: 80%;
+    padding-left: 2.5vw; } }
+
+/*     .row.espaciadoHome {   */
+/* chequear si sigue siendo necesario */
+/*  margin-left: 1rem;
+    }  */
+/* .col-sm-12 { 
+        width: 320px;
+    } */
+.col-sm-12.espaciadoHome {
+  margin-left: 0rem;
+  padding-right: 0rem; }
+
+.recuadroHome {
+  padding-top: 5px;
+  margin-bottom: 3rem;
+  padding-left: 5px;
+  height: 16.5rem; }
+
+.cabeceraRecuadro {
+  font-size: 1.3rem; }
+
+.encabezadoMovil__titulo {
+  font-size: 24px;
+  text-align: center; }
+
+.margenLocales {
+  margin-left: 0rem; }
+
+.boxLocales {
+  width: 14rem; }
+
+.recuadroLocales {
+  padding-left: 10px;
+  padding-top: 15px;
+  margin-bottom: 3rem;
+  width: 14rem;
+  height: 12rem; }
+
+.cabRecLocales {
+  width: 100%;
+  font-size: 1.3rem;
+  width: 14rem;
+  min-width: 13rem; }
+
+.row.miCarrusel1 {
+  /* quita el padding de Bootstrap del carrusel*/
+  padding-left: 0%; }
+
+.row.miCarrusel2 {
+  padding-left: 0%; }
+
+.cajaServC p {
+  margin-left: 5px; }
+
+.box__items {
+  width: 90%;
+  padding-left: 0px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.recuadroContacto {
+  width: 90vw;
+  border-left: transparent;
+  border-right: transparent; }
+
+.cajaServC {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 20px; }
+
+.col-sm-12.anexo {
+  width: 95vw; }
+
+.texto5 {
+  font-size: 1.4rem; }
+
+.cabeceraServ {
+  margin: 0 0 1.6rem 0;
+  font-size: 1.7rem;
+  width: 90%; }
+
+/* .posDeSlogan {
+    width: 80%; 
     margin-bottom: 00px;
-    position: relative;
-    bottom: 3.5rem;
-    left: 1.8rem;
-    background-color: rgba(0, 0, 0, 0.4); }
-  .mapaUb {
-    width: 70%;
-    height: 250px; }
-  .mapaRest {
-    width: 70%;
-    height: 250px;
-    margin-left: 1.8rem; }
-  .margenUb {
-    margin-left: 2rem; }
-  .videoEntorno {
-    width: 60vw;
-    margin-left: 1.8rem; }
-  .mapaUb {
-    width: 75%;
-    height: 250px;
-    margin-left: 1.8rem; }
-  .footer__direccion {
-    padding-left: 10px;
-    margin-left: 0.5rem;
-    width: 90vw; }
-  .footer--display {
-    width: 99%;
-    height: 2.4rem;
-    padding: 0px 5px 0 5px;
-    overflow-x: hidden !important; }
-  .footer__p {
-    width: 73%;
-    padding-left: 10px;
-    padding-top: 5px;
-    margin-left: 0.1rem; }
-  .footer__div {
-    width: 25%;
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-bottom: 5ps; }
-  .mapaDeSitio {
-    font-size: 12px;
-    margin-left: 0rem;
-    width: 90vw; }
-  .mapaDeSitio a {
-    padding: 5px;
-    margin-right: 7px; }
-  .link1 {
-    width: 2.2rem; }
-  .link2 {
-    width: 2.9rem; }
-  .link3 {
-    width: 3.7rem; }
-  .link4 {
-    width: 3.4rem; }
-  .efectoLogo {
-    padding: 0; }
-  .logoTelFace {
-    width: 23px; }
-  .logoLinkUb {
-    width: 19px; }
-  .btn-primary {
-    width: 6rem;
-    color: white;
-    background-color: #0d6efd;
-    border-color: #0d6efd; }
-    .btn-primary:hover {
-      color: color-contrast(shade-color(#0d6efd, 15%));
-      background-color: shade-color(#0d6efd, 15%);
-      border-color: tint-color(#0d6efd, 10%); }
-  .btn-secondary {
-    width: 6rem;
-    color: white;
-    background-color: #6c757d;
-    border-color: #6c757d; }
-    .btn-secondary:hover {
-      color: color-contrast(shade-color(#6c757d, 15%));
-      background-color: shade-color(#6c757d, 15%);
-      border-color: tint-color(#6c757d, 10%); }
-  .btn-success {
-    width: 6rem;
-    color: white;
-    background-color: #198754;
-    border-color: #198754; }
-    .btn-success:hover {
-      color: color-contrast(shade-color(#198754, 15%));
-      background-color: shade-color(#198754, 15%);
-      border-color: tint-color(#198754, 10%); }
-  .btn-info {
-    width: 6rem;
-    color: white;
-    background-color: #0dcaf0;
-    border-color: #0dcaf0; }
-    .btn-info:hover {
-      color: color-contrast(shade-color(#0dcaf0, 15%));
-      background-color: shade-color(#0dcaf0, 15%);
-      border-color: tint-color(#0dcaf0, 10%); }
-  .btn-warning {
-    width: 6rem;
-    color: white;
-    background-color: #ffc107;
-    border-color: #ffc107; }
-    .btn-warning:hover {
-      color: color-contrast(shade-color(#ffc107, 15%));
-      background-color: shade-color(#ffc107, 15%);
-      border-color: tint-color(#ffc107, 10%); }
-  .btn-danger {
-    width: 6rem;
-    color: white;
-    background-color: #dc3545;
-    border-color: #dc3545; }
-    .btn-danger:hover {
-      color: color-contrast(shade-color(#dc3545, 15%));
-      background-color: shade-color(#dc3545, 15%);
-      border-color: tint-color(#dc3545, 10%); }
-  .btn-light {
-    width: 6rem;
-    color: white;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa; }
-    .btn-light:hover {
-      color: color-contrast(shade-color(#f8f9fa, 15%));
-      background-color: shade-color(#f8f9fa, 15%);
-      border-color: tint-color(#f8f9fa, 10%); }
-  .btn-dark {
-    width: 6rem;
-    color: white;
-    background-color: #212529;
-    border-color: #212529; }
-    .btn-dark:hover {
-      color: color-contrast(shade-color(#212529, 15%));
-      background-color: shade-color(#212529, 15%);
-      border-color: tint-color(#212529, 10%); }
-  .btn-naranja-marca {
-    width: 6rem;
-    color: white;
-    background-color: #EE8D35;
-    border-color: #EE8D35; }
-    .btn-naranja-marca:hover {
-      color: color-contrast(shade-color(#EE8D35, 15%));
-      background-color: shade-color(#EE8D35, 15%);
-      border-color: tint-color(#EE8D35, 10%); }
-  .btn-violeta-marca {
-    width: 6rem;
-    color: white;
-    background-color: #9640cc;
-    border-color: #9640cc; }
-    .btn-violeta-marca:hover {
-      color: color-contrast(shade-color(#9640cc, 15%));
-      background-color: shade-color(#9640cc, 15%);
-      border-color: tint-color(#9640cc, 10%); } }
+    position: relative; bottom: 3.5rem; left: 1.8rem;
+    background-color: rgba(0,0,0,0.4);
+    } */
+.mapaUb {
+  width: 70%;
+  height: 250px; }
+
+.mapaRest {
+  width: 70%;
+  height: 250px;
+  margin-left: 1.8rem; }
+
+.margenUb {
+  margin-left: 2rem; }
+
+.videoEntorno {
+  width: 60vw;
+  margin-left: 1.8rem; }
+
+.mapaUb {
+  width: 75%;
+  height: 250px;
+  margin-left: 1.8rem; }
+
+.footer__direccion {
+  padding-left: 10px;
+  margin-left: 0.5rem;
+  width: 90vw; }
+
+.footer--display {
+  width: 99%;
+  height: 2.4rem;
+  padding: 0px 5px 0 5px;
+  overflow-x: hidden !important; }
+
+.footer__p {
+  width: 73%;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-left: 0.1rem; }
+
+.footer__div {
+  width: 25%;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 5ps; }
+
+.mapaDeSitio {
+  font-size: 12px;
+  margin-left: 0rem;
+  width: 90vw; }
+
+.mapaDeSitio a {
+  padding: 5px;
+  margin-right: 7px; }
+
+.link1 {
+  width: 2.2rem; }
+
+.link2 {
+  width: 2.9rem; }
+
+.link3 {
+  width: 3.7rem; }
+
+.link4 {
+  width: 3.4rem; }
+
+.efectoLogo {
+  padding: 0; }
+
+.logoTelFace {
+  width: 23px; }
+
+.logoLinkUb {
+  width: 19px; }
+
+.btn-primary {
+  width: 6rem;
+  color: white;
+  background-color: #0d6efd;
+  border-color: #0d6efd; }
+  .btn-primary:hover {
+    color: color-contrast(shade-color(#0d6efd, 15%));
+    background-color: shade-color(#0d6efd, 15%);
+    border-color: tint-color(#0d6efd, 10%); }
+
+.btn-secondary {
+  width: 6rem;
+  color: white;
+  background-color: #6c757d;
+  border-color: #6c757d; }
+  .btn-secondary:hover {
+    color: color-contrast(shade-color(#6c757d, 15%));
+    background-color: shade-color(#6c757d, 15%);
+    border-color: tint-color(#6c757d, 10%); }
+
+.btn-success {
+  width: 6rem;
+  color: white;
+  background-color: #198754;
+  border-color: #198754; }
+  .btn-success:hover {
+    color: color-contrast(shade-color(#198754, 15%));
+    background-color: shade-color(#198754, 15%);
+    border-color: tint-color(#198754, 10%); }
+
+.btn-info {
+  width: 6rem;
+  color: white;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0; }
+  .btn-info:hover {
+    color: color-contrast(shade-color(#0dcaf0, 15%));
+    background-color: shade-color(#0dcaf0, 15%);
+    border-color: tint-color(#0dcaf0, 10%); }
+
+.btn-warning {
+  width: 6rem;
+  color: white;
+  background-color: #ffc107;
+  border-color: #ffc107; }
+  .btn-warning:hover {
+    color: color-contrast(shade-color(#ffc107, 15%));
+    background-color: shade-color(#ffc107, 15%);
+    border-color: tint-color(#ffc107, 10%); }
+
+.btn-danger {
+  width: 6rem;
+  color: white;
+  background-color: #dc3545;
+  border-color: #dc3545; }
+  .btn-danger:hover {
+    color: color-contrast(shade-color(#dc3545, 15%));
+    background-color: shade-color(#dc3545, 15%);
+    border-color: tint-color(#dc3545, 10%); }
+
+.btn-light {
+  width: 6rem;
+  color: white;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa; }
+  .btn-light:hover {
+    color: color-contrast(shade-color(#f8f9fa, 15%));
+    background-color: shade-color(#f8f9fa, 15%);
+    border-color: tint-color(#f8f9fa, 10%); }
+
+.btn-dark {
+  width: 6rem;
+  color: white;
+  background-color: #212529;
+  border-color: #212529; }
+  .btn-dark:hover {
+    color: color-contrast(shade-color(#212529, 15%));
+    background-color: shade-color(#212529, 15%);
+    border-color: tint-color(#212529, 10%); }
+
+.btn-naranja-marca {
+  width: 6rem;
+  color: white;
+  background-color: #EE8D35;
+  border-color: #EE8D35; }
+  .btn-naranja-marca:hover {
+    color: color-contrast(shade-color(#EE8D35, 15%));
+    background-color: shade-color(#EE8D35, 15%);
+    border-color: tint-color(#EE8D35, 10%); }
+
+.btn-violeta-marca {
+  width: 6rem;
+  color: white;
+  background-color: #9640cc;
+  border-color: #9640cc; }
+  .btn-violeta-marca:hover {
+    color: color-contrast(shade-color(#9640cc, 15%));
+    background-color: shade-color(#9640cc, 15%);
+    border-color: tint-color(#9640cc, 10%); }
 
 /*Tablet*/
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation: portrait) {
