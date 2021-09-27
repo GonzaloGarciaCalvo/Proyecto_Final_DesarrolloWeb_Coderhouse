@@ -1,16 +1,6 @@
 @import"variables";
 // HOME
-.posDeSlogan {
-    align-self: center;
-    text-align: center;
-    margin-bottom: 50px;
-    padding-left: 15px;
-    padding-right: 6px;
-    position: relative; bottom: 2.35rem; 
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
-    
-}
+
 .img{                  
     width:100%;
     height:100%;
@@ -60,11 +50,6 @@
     font-size: 1.5rem;
     width: 19rem;
 }
-.prueba {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
 .bg-dark {
     background-color: #262626 !important;
 }
@@ -77,8 +62,9 @@
     padding-right: 0vw;
 }
 .boxLocales {
-    min-width: 13rem;
-    max-width: 16rem;
+    @include minmax-W(13rem, 16rem)
+   /*  min-width: 13rem;
+    max-width: 16rem; */
   }
 .recuadroLocales {
     @extend .recuadro;
@@ -103,9 +89,10 @@
 }
 .carousel.slide{
     width: 65vh;
-}
-.carousel.slide.otroCarrusel{    /* .otroCarrusel es para diferenciar los 2 carruseles distintos*/
-    width: 88vh;
+    &.otroCarrusel {   
+        width: 88vh;
+        /* .otroCarrusel es para diferenciar los 2 carruseles distintos*/
+    }
 }
 .lineaEspaciosComunes {
     transform: translate(3px, -20px);
@@ -141,7 +128,6 @@
         }
     }     
 }
-
 .servicios__logo {
     max-height: 55px;
     max-width: 55px; 
@@ -152,9 +138,9 @@
 .efectoLogo {
     transform: scale(1,1);
     transition: all 1s ;
-}
-.efectoLogo:hover {
-    transform: scale(1.3, 1.3);
+    &:hover {
+        transform: scale(1.3, 1.3);
+    }
 }
 
 // UBICACION

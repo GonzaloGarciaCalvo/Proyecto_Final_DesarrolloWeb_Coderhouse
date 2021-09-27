@@ -260,8 +260,7 @@
 
 .heather {
   background-color: #262626;
-  height: 110px;
-  /* width: 100vw; */ }
+  height: 110px; }
   .heather__logo {
     width: 95px;
     height: 95px;
@@ -508,17 +507,6 @@ address {
     background-color: shade-color(#9640cc, 15%);
     border-color: tint-color(#9640cc, 10%); }
 
-.posDeSlogan {
-  align-self: center;
-  text-align: center;
-  margin-bottom: 50px;
-  padding-left: 15px;
-  padding-right: 6px;
-  position: relative;
-  bottom: 2.35rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2; }
-
 .img {
   width: 100%;
   height: 100%;
@@ -561,11 +549,6 @@ address {
   font-size: 1.5rem;
   width: 19rem; }
 
-.prueba {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; }
-
 .bg-dark {
   background-color: #262626 !important; }
 
@@ -577,7 +560,9 @@ address {
 
 .boxLocales {
   min-width: 13rem;
-  max-width: 16rem; }
+  max-width: 16rem;
+  /*  min-width: 13rem;
+    max-width: 16rem; */ }
 
 .recuadroLocales {
   border: 1px solid #EE8D35;
@@ -601,10 +586,9 @@ address {
 
 .carousel.slide {
   width: 65vh; }
-
-.carousel.slide.otroCarrusel {
-  /* .otroCarrusel es para diferenciar los 2 carruseles distintos*/
-  width: 88vh; }
+  .carousel.slide.otroCarrusel {
+    width: 88vh;
+    /* .otroCarrusel es para diferenciar los 2 carruseles distintos*/ }
 
 .lineaEspaciosComunes {
   transform: translate(3px, -20px); }
@@ -644,9 +628,8 @@ address {
 .efectoLogo {
   transform: scale(1, 1);
   transition: all 1s; }
-
-.efectoLogo:hover {
-  transform: scale(1.3, 1.3); }
+  .efectoLogo:hover {
+    transform: scale(1.3, 1.3); }
 
 .posMapas {
   margin-left: 45px; }
@@ -1308,7 +1291,7 @@ img {
   .logoLinkUb {
     width: 19px; }
   .btn-primary {
-    width: 7.3rem;
+    width: 7.5rem;
     color: white;
     background-color: #0d6efd;
     border-color: #0d6efd; }
@@ -1317,7 +1300,7 @@ img {
       background-color: shade-color(#0d6efd, 15%);
       border-color: tint-color(#0d6efd, 10%); }
   .btn-secondary {
-    width: 7.3rem;
+    width: 7.5rem;
     color: white;
     background-color: #6c757d;
     border-color: #6c757d; }
@@ -1326,7 +1309,7 @@ img {
       background-color: shade-color(#6c757d, 15%);
       border-color: tint-color(#6c757d, 10%); }
   .btn-success {
-    width: 7.3rem;
+    width: 7.5rem;
     color: white;
     background-color: #198754;
     border-color: #198754; }
@@ -1335,7 +1318,7 @@ img {
       background-color: shade-color(#198754, 15%);
       border-color: tint-color(#198754, 10%); }
   .btn-info {
-    width: 7.3rem;
+    width: 7.5rem;
     color: white;
     background-color: #0dcaf0;
     border-color: #0dcaf0; }
@@ -1344,7 +1327,7 @@ img {
       background-color: shade-color(#0dcaf0, 15%);
       border-color: tint-color(#0dcaf0, 10%); }
   .btn-warning {
-    width: 7.3rem;
+    width: 7.5rem;
     color: white;
     background-color: #ffc107;
     border-color: #ffc107; }
@@ -1353,7 +1336,7 @@ img {
       background-color: shade-color(#ffc107, 15%);
       border-color: tint-color(#ffc107, 10%); }
   .btn-danger {
-    width: 7.3rem;
+    width: 7.5rem;
     color: white;
     background-color: #dc3545;
     border-color: #dc3545; }
@@ -1362,7 +1345,7 @@ img {
       background-color: shade-color(#dc3545, 15%);
       border-color: tint-color(#dc3545, 10%); }
   .btn-light {
-    width: 7.3rem;
+    width: 7.5rem;
     color: white;
     background-color: #f8f9fa;
     border-color: #f8f9fa; }
@@ -1371,7 +1354,7 @@ img {
       background-color: shade-color(#f8f9fa, 15%);
       border-color: tint-color(#f8f9fa, 10%); }
   .btn-dark {
-    width: 7.3rem;
+    width: 7.5rem;
     color: white;
     background-color: #212529;
     border-color: #212529; }
@@ -1380,7 +1363,7 @@ img {
       background-color: shade-color(#212529, 15%);
       border-color: tint-color(#212529, 10%); }
   .btn-naranja-marca {
-    width: 7.3rem;
+    width: 7.5rem;
     color: white;
     background-color: #EE8D35;
     border-color: #EE8D35; }
@@ -1389,7 +1372,7 @@ img {
       background-color: shade-color(#EE8D35, 15%);
       border-color: tint-color(#EE8D35, 10%); }
   .btn-violeta-marca {
-    width: 7.3rem;
+    width: 7.5rem;
     color: white;
     background-color: #9640cc;
     border-color: #9640cc; }

@@ -1,14 +1,14 @@
 {
   "name": "proyecto_final-ggc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto Final de Desarrollo Web de Gonzalo Garcia Calvo.La web es para un edificio de oficinas. Consta de 6 html, Home, Locales, Ubicación, Servicios, Contacto y 404. Se utiliza el framework Bootstrap 5, animaciones de AOS linkeadas; y animación adaptada de animate.css en el cuepo del scss. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/origen.scss css/destino.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "Gonzalo",
+  "author": "Gonzalo Garcia Calvo",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",

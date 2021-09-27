@@ -8,7 +8,7 @@
 @mixin button-variant(
     $background,
     $border,
-    $color: white, /* color-contrast($background), */
+    $color: white, 
     $hover-background: shade-color($background, $btn-hover-bg-shade-amount),
     $hover-border: if($color == $color-contrast-light, shade-color($border, $btn-hover-border-shade-amount), tint-color($border, $btn-hover-border-tint-amount)),
     $hover-color: color-contrast($hover-background),
