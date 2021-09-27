@@ -16,9 +16,6 @@
     .texto1 {
         font-size: 50px;
     }
-    .espaciadoHome {
-        padding-left: 0rem;
-    }
 }
 
  /*    Movil    */
@@ -70,10 +67,8 @@
         }
     }
     .espaciadoHome {
-        /* padding-left: 2.5vw; */
         margin-left: 2vw;
     }
-/* } */
     .col-sm-12.espaciadoHome {
         margin-left: 0rem;
         padding-right: 0rem;
@@ -144,11 +139,9 @@
     font-size: 1.7rem;
     width: 90%;
     }
-    
     .margenUb {
     margin-left: 0.8rem ;
     }
-    
     .footer {
         &__direccion {
             padding-left: 10px;
@@ -196,9 +189,9 @@
     .link4 {
         width: 3.4rem;
     }
-    .efectoLogo {
+    /* .efectoLogo {
         padding: 0;
-    }
+    } */
     .logoTelFace {
         width: 23px;
     }
@@ -228,26 +221,6 @@
     transform: translate(35px, 10px);
     font-size: 28px;
     }
-    /* .boxLocales {
-        max-width: 16rem;
-        min-width: 13rem;
-    }
-    .recuadroLocales {   
-        width: 100%;                
-        padding-left: 45px;
-        padding-top: 15px;
-        margin-bottom: 3rem;
-        margin-left: 2rem;
-        height: 12rem;
-    }
-    .cabRecLocales {
-        width: 100%;
-        font-size: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 2rem;
-    } */
     .row.miCarrusel1 {    /* quita el padding de Bootstrap del carrusel*/
         padding-left: 0%;
     }
@@ -274,38 +247,4 @@
         width: 97%;
         height: 2.4rem;
     }
-/*     .margenUb {
-    margin-left: 0rem ;   
-}  */
-    /*landscape*/
-/* @media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
-    .texto1 {
-        font-size: 2.25rem;
-    }
-    .texto2 {
-        font-size: 1.6rem;
-    } 
-} */
- 
-/* @media (min-width: 576px) and (max-width: 991.98px)and (orientation:landscape) {
-    .texto1 {
-        font-size: 1.8rem;
-    }
-    .texto2 {
-        font-size: 1.4rem;
-    }          
-} */
-/* @media (min-width:991.98px ) and (max-width: 1199.98px )and (orientation:landscape) {
-    .texto1 {
-        font-size: 2.3rem;
-    }
-    .texto2 {
-        font-size: 1.4rem;
-    } 
-    .cajaMenu {
-            height: 100%;
-            width: 65%;
-    }   
-    
-} */
 }

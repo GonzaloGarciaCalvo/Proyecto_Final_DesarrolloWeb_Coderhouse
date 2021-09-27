@@ -45,7 +45,7 @@ $custom-colors: (
     );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $btn-hover-bg-tint-amount:   30%;   
-//definicion de otras variables usadas en botones
+//definicion de otras variables usadas en botones, sin esto no funciona el mixin del os botones
 $color-contrast-light: grey  !default;
 $btn-hover-border-shade-amount:   20%;
 $btn-hover-border-tint-amount:    10%;
@@ -65,7 +65,7 @@ $enable-gradients: true;
 @mixin button-variant(
   $background,
   $border,
-  $color: white, /* color-contrast($background), */
+  $color: white, 
   $hover-background: shade-color($background, $btn-hover-bg-shade-amount),
   $hover-border: if($color == $color-contrast-light, shade-color($border, $btn-hover-border-shade-amount), tint-color($border, $btn-hover-border-tint-amount)),
   $hover-color: color-contrast($hover-background),

@@ -54,29 +54,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .cabeceraRecuadro {
     @extend .cabecera;
     font-size: 1.5rem;
     width: 19rem;
 }
-.espaciadoHome {        /* solucion para un margin-right en Home que no puedo quitar */
-    padding-left: 0.5rem; 
-    padding-left: 0rem; 
-}
 .prueba {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-
 .bg-dark {
     background-color: #262626 !important;
 }
 .recuadroFinal {
     text-align: left;
-
 }
 // LOCALES
 
@@ -125,7 +118,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center; 
-        /* width:90%; */
         width: 40vw;
         padding-left: 60px;
         padding-top: 20px;
@@ -148,7 +140,7 @@
             margin: 0;
         }
     }     
-    }
+}
 
 .servicios__logo {
     max-height: 55px;
