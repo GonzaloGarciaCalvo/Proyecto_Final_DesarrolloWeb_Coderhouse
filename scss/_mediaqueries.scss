@@ -189,9 +189,7 @@
     .link4 {
         width: 3.4rem;
     }
-    /* .efectoLogo {
-        padding: 0;
-    } */
+
     .logoTelFace {
         width: 23px;
     }
@@ -201,7 +199,7 @@
     // bucle modificado (con width) que genera los botones de contacto.html
     @each $background, $value in $theme-colors {
         .btn-#{$background} {
-        width: 6rem; 
+        width: 6.7rem; 
         @include button-variant($value, $value);
         }
     }
@@ -242,9 +240,5 @@
         margin: 0 0 1.6rem 0;
         font-size: 1.7rem;
         width: 90%;
-    }
-    .cajaFooter {
-        width: 97%;
-        height: 2.4rem;
     }
 }
