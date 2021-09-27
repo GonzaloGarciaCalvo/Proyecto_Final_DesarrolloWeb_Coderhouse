@@ -199,7 +199,7 @@
     // bucle modificado (con width) que genera los botones de contacto.html
     @each $background, $value in $theme-colors {
         .btn-#{$background} {
-        width: 6.7rem; 
+        width: 7.3rem; 
         @include button-variant($value, $value);
         }
     }
