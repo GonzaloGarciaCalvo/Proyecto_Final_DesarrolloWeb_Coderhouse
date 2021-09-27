@@ -24,7 +24,7 @@
     }
 }
 .boxHome {
-    width: 320px;
+    width: 19rem;
 }
 .recuadro {           /*  usado en index y locales                */
     background-color: white;
@@ -38,14 +38,6 @@
     min-width: $min-width;
     max-width: $max-width;
 }
-/* .recuadroHome {
-    @extend .recuadro;
-    padding-left: 15px;
-    padding-top: 5px;
-    margin-bottom: 3rem;
-    @include minmax-W(18.5rem, 19rem);
-    height: 16rem;
-} */
 .recuadroHome {
     @extend .recuadro;
     padding-left: 15px;
@@ -71,15 +63,14 @@
 }
 .espaciadoHome {        /* solucion para un margin-right en Home que no puedo quitar */
     padding-left: 0.5rem; 
+    padding-left: 0rem; 
 }
 .prueba {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-.row.espaciadoHome {
-    --bs-gutter-x: 0rem;
-}
+
 .bg-dark {
     background-color: #262626 !important;
 }
@@ -89,12 +80,6 @@
 }
 // LOCALES
 
-/* .columnaLoc {
-    padding-left: auto;
-    padding-right: auto;
-    margin-left: auto;
-    margin-right: auto
-}  */
 .margenLocales {
     padding-right: 0vw;
 }
@@ -109,7 +94,6 @@
     padding-top: 15px;
     margin-bottom: 3rem;
     width: 16rem;
-    /* @include minmax-W(13rem, 16rem); */
     height: 12rem;
 }
 .cabRecLocales {
