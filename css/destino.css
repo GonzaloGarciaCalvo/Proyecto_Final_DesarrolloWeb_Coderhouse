@@ -343,8 +343,8 @@
   border-top: 2px solid #EE8D35;
   padding-top: 0.8rem; }
   .footer__direccion {
-    padding-left: 2%;
-    margin-left: 0.75rem; }
+    /* padding-left: 0.5rem; */
+    margin-left: 3rem; }
   .footer--display {
     display: flex;
     flex-direction: row;
@@ -357,7 +357,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 2%;
+    margin-left: 3rem;
     padding-top: 5px;
     width: 75%; }
   .footer__div {
@@ -373,7 +373,9 @@
   font-size: 16px;
   display: flex;
   flex-direction: row;
-  margin-left: 0.85rem; }
+  /* margin-left: 0.85rem; */
+  padding-left: 0;
+  margin-left: 2.25rem; }
 
 .mapaDeSitio a {
   color: white;
@@ -673,8 +675,9 @@ address {
 
 .recuadroContacto {
   border: 3px solid #EE8D35;
-  width: 90vh;
-  padding: 5px;
+  width: 55vw;
+  max-width: 550px;
+  padding: 10px;
   margin-bottom: 1rem; }
 
 /*  genera botones para contacto */

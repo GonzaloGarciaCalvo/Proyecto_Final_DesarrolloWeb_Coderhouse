@@ -188,8 +188,9 @@
 }
 .recuadroContacto {
     border: 3px solid $naranja-marca;
-    width: 90vh;
-    padding: 5px;
+    width: 55vw;
+    max-width: 550px;
+    padding: 10px;
     margin-bottom: 1rem;
 }
 @each $boton, $color in $mapaColores{  /*  genera botones para contacto */
