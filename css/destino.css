@@ -343,7 +343,6 @@
   border-top: 2px solid #EE8D35;
   padding-top: 0.8rem; }
   .footer__direccion {
-    /* padding-left: 0.5rem; */
     margin-left: 3rem; }
   .footer--display {
     display: flex;
@@ -373,7 +372,6 @@
   font-size: 16px;
   display: flex;
   flex-direction: row;
-  /* margin-left: 0.85rem; */
   padding-left: 0;
   margin-left: 2.25rem; }
 
@@ -562,9 +560,7 @@ address {
 
 .boxLocales {
   min-width: 13rem;
-  max-width: 16rem;
-  /*  min-width: 13rem;
-    max-width: 16rem; */ }
+  max-width: 16rem; }
 
 .recuadroLocales {
   border: 1px solid #EE8D35;

@@ -63,8 +63,6 @@
 }
 .boxLocales {
     @include minmax-W(13rem, 16rem)
-   /*  min-width: 13rem;
-    max-width: 16rem; */
   }
 .recuadroLocales {
     @extend .recuadro;
