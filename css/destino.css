@@ -1256,7 +1256,7 @@ img {
   .margenUb {
     margin-left: 0.8rem; }
   .footer__direccion {
-    padding-left: 0.625rem;
+    padding-left: 1rem;
     margin-left: 0.5rem;
     width: 90vw; }
   .footer--display {
@@ -1265,19 +1265,20 @@ img {
     padding: 0px 5px 0 5px;
     overflow-x: hidden !important; }
   .footer__p {
-    width: 73%;
-    padding-left: 0.625rem;
+    width: 72%;
+    padding-left: 1rem;
     padding-top: 5px;
-    margin-left: 0.1rem; }
+    margin-left: 0.2rem; }
   .footer__div {
-    width: 25%;
+    width: 28%;
     padding-left: 0%;
-    padding-right: 0%;
-    padding-bottom: 5px; }
+    /* padding-right: 1rem; */
+    padding-bottom: 5px;
+    margin-right: 0.3rem; }
   .mapaDeSitio {
     font-size: 0.75rem;
-    margin-left: 0rem;
-    width: 90vw; }
+    margin-left: 0.5rem;
+    width: 100vw; }
   .mapaDeSitio a {
     padding: 0.3125rem;
     margin-right: 7px; }
