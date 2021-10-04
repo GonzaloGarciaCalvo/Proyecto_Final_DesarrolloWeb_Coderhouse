@@ -8,7 +8,7 @@
 /* TIPOGRAFÍA */
 .texto1 {                          /** titulo principal de hether lg y superiores  **/
     color: $colorTexto;
-    font-size: 40px;
+    font-size: 1em*40/16;
     }
 .texto2 {
     color: $colorTexto; 

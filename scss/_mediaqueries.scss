@@ -9,12 +9,12 @@
 }
 @media (min-width:992px) and (max-width:1186px) {
     .texto1 {
-        font-size: 35px;
+        font-size: 1rem*35/16;
     }
 }
 @media (min-width:1400px) and (max-width:1900px) {
     .texto1 {
-        font-size: 50px;
+        font-size: 1rem*50/16;
     }
 }
 
@@ -24,7 +24,7 @@
         display: none !important;
     }
     .texto2 {
-        font-size: 16px;
+        font-size: 1em;
     }
     .texto3 {
         font-size: 1rem;
@@ -38,7 +38,7 @@
     } 
     .texto9 {
         color: $colorTexto; 
-        font-size: 12px;
+        font-size: 1em*12/16;
     }   
     .textoSlogan {
         font-size: 1.25rem;
@@ -47,7 +47,7 @@
         border-top: 1px solid $naranja-marca;
         height: 1px; 
         width: 94vw;
-        margin-bottom: 50px; 
+        margin-bottom: 1rem*45/16; 
         margin-left: 0.625rem; 
         transform: translate(0px,-10px);
         &Div {
@@ -62,7 +62,7 @@
             border-top: 1px solid $naranja-marca;
             height: 1px; 
             width: 75vw;
-            min-width: 280px;
+            min-width: 1rem*280/16;
             transform: translateY(-10px);
         }
     }
@@ -74,16 +74,16 @@
         padding-right: 0rem;
     }
     .recuadroHome {
-        padding-top: 5px;
+        padding-top: 1rem*5/16;
         margin-bottom: 3rem;
-        padding-left: 5px;
+        padding-left: 1rem*6/16;
         height: 16.5rem;
     }
     .cabeceraRecuadro {
         font-size: 1.3rem;
     }
     .encabezadoMovil__titulo {
-        font-size: 24px;
+        font-size: 1rem*24/16;
         text-align: center;
     }
     .margenLocales {
@@ -93,8 +93,8 @@
         width: 14rem;
     }
     .recuadroLocales {                   
-        padding-left: 10px;
-        padding-top: 15px;
+        padding-left: 1rem*10/16;
+        padding-top: 1rem*15/16;
         margin-bottom: 3rem;
         width: 14rem;
         height: 12rem;
@@ -112,12 +112,12 @@
         padding-left: 0%;
     }
     .cajaServC p {
-        margin-left: 5px;
+        margin-left: 1rem*5/16;
     }
     .box__items  {
             width:90%;
             padding-left: 0px;
-            padding-top: 20px;
+            padding-top: 1rem*20/16;
             margin-left: auto;
             margin-right: auto;
         } 
@@ -128,8 +128,8 @@
     } 
     .cajaServC {
     width:100%;
-    padding-left: 10px;
-    padding-right:20px ;
+    padding-left: 1rem*10/16;
+    padding-right: 1rem*20/16 ;
     }
     .col-sm-12.anexo { 
         width: 95vw;
@@ -144,7 +144,7 @@
     }
     .footer {
         &__direccion {
-            padding-left: 10px;
+            padding-left: 1rem*10/16;
             margin-left: 0.5rem;
             width: 90vw
         }
@@ -156,7 +156,7 @@
         }
         &__p {
             width: 73%; 
-            padding-left: 10px;
+            padding-left: 1rem*10/16;
             padding-top: 5px;
             margin-left: 0.1rem;
         }
@@ -164,16 +164,16 @@
             width: 25%;
             padding-left: 0%; 
             padding-right: 0%;
-            padding-bottom: 5ps;
+            padding-bottom: 5px;
         }
     }
     .mapaDeSitio {
-        font-size: 12px;
+        font-size: 1rem*12/16;
         margin-left: 0rem;
         width: 90vw;
     }
     .mapaDeSitio a {
-        padding: 5px;
+        padding: 1rem*5/16;
         margin-right: 7px;
     } 
     .link1 {
@@ -191,10 +191,10 @@
     }
 
     .logoTelFace {
-        width: 23px;
+        width: 1rem*23/16;
     }
     .logoLinkUb {
-        width: 19px;
+        width: 1rem*19/16;
     }
     // bucle modificado (con width) que genera los botones de contacto.html
     @each $background, $value in $theme-colors {
@@ -217,7 +217,7 @@
     }
     .tituloMovil {
     transform: translate(35px, 10px);
-    font-size: 28px;
+    font-size: 1rem*28/16;
     }
     .row.miCarrusel1 {    /* quita el padding de Bootstrap del carrusel*/
         padding-left: 0%;
@@ -226,12 +226,12 @@
         padding-left: 0%;
     }
     .cajaServC p {
-        margin-left: 5px;
+        margin-left: 1rem*5/16;
     }
     .cajaServC {
     width:100%;
-    padding-left: 10px;
-    padding-right:20px ;
+    padding-left: 1rem*10/16;
+    padding-right:1rem*20/16 ;
     }
     .texto5 {
     font-size: 1.4rem;

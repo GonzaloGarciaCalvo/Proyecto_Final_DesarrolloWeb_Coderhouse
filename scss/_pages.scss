@@ -30,8 +30,8 @@
 }
 .recuadroHome {
     @extend .recuadro;
-    padding-left: 15px;
-    padding-top: 5px;
+    padding-left: 1rem*15/16;
+    padding-top: 1rem*5/16;
     margin-bottom: 3rem;
     width: 19rem;
     height: 16rem;
@@ -67,8 +67,8 @@
 .recuadroLocales {
     @extend .recuadro;
     border:1px solid $naranja-marca;
-    padding-left: 45px;
-    padding-top: 15px;
+    padding-left: 1rem*45/16;
+    padding-top: 1rem*15/16;
     margin-bottom: 3rem;
     width: 16rem;
     height: 12rem;
@@ -79,11 +79,11 @@
     @include minmax-W(13rem, 16rem)
 }
 .posFotos{
-    margin-left: 40px;
+    margin-left: 1rem*40/16;
 }
 .fotosLocales {
     width: 50vw;
-    padding-bottom: 10px;
+    padding-bottom: 1rem*10/16;
 }
 .carousel.slide{
     width: 65vh;
@@ -104,10 +104,10 @@
         justify-content: center;
         align-items: center; 
         width: 40vw;
-        padding-left: 60px;
-        padding-top: 20px;
+        padding-left: 1rem*60/16;
+        padding-top: 1rem*20/16;
         p {
-            padding-top: 10px;
+            padding-top: 1rem*10/16;
         }
     } 
     &__cabecera {
@@ -127,11 +127,11 @@
     }     
 }
 .servicios__logo {
-    max-height: 55px;
-    max-width: 55px; 
-    min-height: 30px ;
-    min-width: 30px;
-    padding-bottom: 10px; 
+    max-height: 1rem*55/16;
+    max-width: 1rem*55/16; 
+    min-height: 1rem*30/16 ;
+    min-width: 1rem*30/16;
+    padding-bottom: 1rem*10/16; 
 }  
 .efectoLogo {
     transform: scale(1,1);
@@ -142,9 +142,9 @@
 }
 
 // UBICACION
-.posMapas { 
+/* .posMapas { 
     margin-left: 45px;
-    }
+    } */
 .margenUb {
     margin-left: 1.5rem ;
 }
@@ -155,20 +155,20 @@
 .mapaUb {
     width: 60vw;
     height: 60vw;
-    min-width: 280px;
+    min-width: 1rem*280/16;
     border:1px solid gray;
     margin-top: 1rem;
 }
 .mapaRest {
     width: 60vw;
-    min-width: 280px;
+    min-width: 1rem*280/16;
     height: 60vw1;
     border:1px solid gray;
     margin-top: 3rem;
 }
 .videoEntorno {
     width: 60vw;
-    min-width: 280px;
+    min-width: 1rem*280/16;
     margin-top: 3rem; 
 }
 // CONTACTO 
@@ -187,7 +187,7 @@
 .recuadroContacto {
     border: 3px solid $naranja-marca;
     width: 55vw;
-    max-width: 550px;
+    max-width: 1rem*550/16;
     padding: 10px;
     margin-bottom: 1rem;
 }
@@ -218,14 +218,14 @@ body {
     border-top: 1px solid $naranja-marca;
     height: 1px; 
     width: 94vw;
-    margin-bottom: 50px; 
+    margin-bottom: 1rem*50/16; 
     margin-left: 0.625rem; 
     transform: translate(0px,-10px);
     &Div {
         border-top: 1px solid $naranja-marca;
         height: 1px; 
         width: 94vw;
-        margin-bottom: 50px; 
+        margin-bottom: 1rem*50/16; 
         margin-left: 0.625rem; 
         transform: translate(3px,-11px);
     }    
