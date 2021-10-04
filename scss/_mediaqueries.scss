@@ -40,6 +40,9 @@
         color: $colorTexto; 
         font-size: 1em*12/16;
     }   
+    .texto10 {
+        font-size: 1rem*10/16;
+    }
     .textoSlogan {
         font-size: 1.25rem;
     }       
@@ -169,26 +172,28 @@
         }
     }
     .mapaDeSitio {
-        font-size: 1rem*12/16;
-        margin-left: 0.5rem;
+        font-size: 0.85rem;
+        margin-left: 0rem; 
+        margin-right: 0.5rem; 
+        margin-bottom: 0.3rem;
         width: 100vw;
     }
     .mapaDeSitio a {
-        padding: 1rem*5/16;
-        margin-right: 7px;
+        padding: 1rem*2/16;
+        margin-right: 10px;
     } 
     .link1 {
-        width: 2.2rem;
+        width: 2.3rem;
     }
     .link2 {
-        width: 2.9rem;
+        width: 3rem;
     
     }
     .link3 {
-        width: 3.7rem;
+        width: 3.8rem;
     }
     .link4 {
-        width: 3.4rem;
+        width: 3.5rem;
     }
 
     .logoTelFace {
