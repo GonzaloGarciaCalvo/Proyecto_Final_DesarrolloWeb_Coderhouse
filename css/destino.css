@@ -1184,7 +1184,8 @@ img {
     border-top: 1px solid #EE8D35;
     height: 1px;
     width: 94vw;
-    margin-bottom: 2.8125rem;
+    /*  margin-bottom: 1rem*45/16;  */
+    margin-bottom: 2rem;
     margin-left: 0.625rem;
     transform: translate(0px, -10px); }
     .lineaDiv {
