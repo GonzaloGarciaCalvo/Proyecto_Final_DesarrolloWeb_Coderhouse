@@ -111,27 +111,27 @@
 
 .texto2 {
   color: white;
-  font-size: 28px;
+  font-size: 1.625rem;
   text-transform: uppercase; }
 
 .texto3 {
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
   list-style-type: none; }
 
 .texto4 {
   color: black;
-  font-size: 50px;
+  font-size: 3.125rem;
   text-transform: uppercase; }
 
 .texto5 {
   /** titulos de secciones de version movil  **/
   color: black;
-  font-size: 30px;
+  font-size: 1.625rem;
   text-transform: uppercase; }
 
 .texto6 {
-  font-size: 24; }
+  font-size: 1rem; }
 
 .texto7 {
   font-size: 0.9rem; }
@@ -146,22 +146,22 @@
 
 .texto9 {
   color: white;
-  font-size: 16px; }
+  font-size: 1rem; }
 
 .texto10 {
   font-family: cursive;
   color: white;
-  font-size: 14px; }
+  font-size: 0.875rem; }
 
 .textotituloMovil {
-  line-height: 24px; }
+  line-height: 1.5rem; }
 
 .textoSubtituloMovil {
-  font-size: 12px;
-  line-height: 12px; }
+  font-size: 0.75rem;
+  line-height: 0.75rem; }
 
 .textoRecuadroHome {
-  font-size: 14px; }
+  font-size: 0.875rem; }
 
 .btn-primary {
   width: 5rem;
@@ -265,14 +265,10 @@
 
 .heather {
   background-color: #262626;
-  /* height: 110px; */
-  height: 6.6rem; }
+  height: 6.2rem; }
   .heather__logo {
-    /* width: 95px;
-        height: 95px; */
     width: 5.7rem;
     height: 5.7rem;
-    /* margin-bottom: 1rem*5/16; */
     margin-bottom: 0.3rem;
     margin-top: 0.625rem;
     margin-left: 1rem; }
@@ -383,7 +379,6 @@
   display: flex;
   flex-direction: row;
   padding-left: 0;
-  /* margin-left: 2.25rem; */
   justify-content: center; }
 
 .mapaDeSitio a {
@@ -623,7 +618,7 @@ address {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 3px; }
+  padding-top: 0.1875rem; }
   .box__cabecera__p {
     margin: 0; }
 
@@ -644,7 +639,7 @@ address {
     margin-left: 45px;
     } */
 .margenUb {
-  margin-left: 1.5rem; }
+  margin-left: 2.1rem; }
 
 .skewxCr {
   transform: skewX(15deg); }
@@ -670,7 +665,7 @@ address {
 
 .divContacto {
   margin-left: 0px;
-  margin-bottom: 10px; }
+  margin-bottom: 0.625rem; }
 
 .rowContacto {
   display: flex;
@@ -684,7 +679,7 @@ address {
   border: 3px solid #EE8D35;
   width: 55vw;
   max-width: 34.375rem;
-  padding: 10px;
+  padding: 0.625rem;
   margin-bottom: 1rem; }
 
 /*  genera botones para contacto */
@@ -1276,18 +1271,16 @@ img {
   .footer__p {
     width: 72%;
     padding-left: 1rem;
-    padding-top: 5px;
+    padding-top: 0.3125rem;
     margin-left: 0.2rem; }
   .footer__div {
     width: 28%;
     padding-left: 0%;
-    /* padding-right: 1rem; */
     padding-bottom: 5px;
     margin-right: 0.3rem; }
   .mapaDeSitio {
     font-size: 0.8rem;
     margin-left: 0rem;
-    /* margin-right: 0.5rem;  */
     margin-bottom: 0.3rem;
     width: 100vw; }
   .mapaDeSitio a {

@@ -12,26 +12,26 @@
     }
 .texto2 {
     color: $colorTexto; 
-    font-size: 28px;
+    font-size: 1rem*26/16;
     text-transform: uppercase;
     } 
 .texto3 {
     color: $colorTexto; 
-    font-size: 20px;
+    font-size: 1rem*20/16;
     list-style-type: none; 
     }
 .texto4 { 
         color: black; 
-        font-size: 50px;
+        font-size: 1rem*50/16;
         text-transform: uppercase;
     }
 .texto5 {                         /** titulos de secciones de version movil  **/
     color: black; 
-    font-size: 30px;
+    font-size: 1rem*26/16;
     text-transform: uppercase;
 }
 .texto6 { 
-    font-size: 24; 
+    font-size: 1rem; 
 }
 .texto7 { 
     font-size: 0.9rem;
@@ -46,20 +46,20 @@
 }   
 .texto9 {
     color: $colorTexto; 
-    font-size: 16px;
+    font-size: 1rem;
 }
 .texto10 {
     font-family: cursive;
     color: $colorTexto; 
-    font-size: 14px;
+    font-size: 1rem*14/16;
 }
 .textotituloMovil {
-    line-height: 24px;
+    line-height: 1rem*24/16;
 }
 .textoSubtituloMovil {
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 1rem*12/16;
+    line-height: 1rem*12/16;
 }
 .textoRecuadroHome {
-    font-size: 14px;
+    font-size: 1rem*14/16;
 }     

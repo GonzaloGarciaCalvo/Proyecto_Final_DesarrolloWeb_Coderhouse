@@ -160,13 +160,12 @@
         &__p {
             width: 72%; 
             padding-left: 1rem;
-            padding-top: 5px;
+            padding-top: 1rem*5/16;
             margin-left: 0.2rem;
         }
         &__div {
             width: 28%;
             padding-left: 0%; 
-            /* padding-right: 1rem; */
             padding-bottom: 5px;
             margin-right: 0.3rem;
         }
@@ -174,7 +173,6 @@
     .mapaDeSitio {
         font-size: 0.8rem;
         margin-left: 0rem; 
-        /* margin-right: 0.5rem;  */
         margin-bottom: 0.3rem;
         width: 100vw;
     }
