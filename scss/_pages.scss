@@ -13,6 +13,9 @@
     width:100%;   
     }
 }
+.descripcionHome {
+    width: 99vw;
+}
 .boxHome {
     width: 19rem;
 }
@@ -217,7 +220,7 @@ body {
 .linea {
     border-top: 1px solid $naranja-marca;
     height: 1px; 
-    width: 94vw;
+    width: 92vw;
     margin-bottom: 1rem*50/16; 
     margin-left: 0.625rem; 
     transform: translate(0px,-10px);

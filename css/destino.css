@@ -523,6 +523,9 @@ address {
 .img img {
   width: 100%; }
 
+.descripcionHome {
+  width: 99vw; }
+
 .boxHome {
   width: 19rem; }
 
@@ -710,7 +713,7 @@ body {
 .linea {
   border-top: 1px solid #EE8D35;
   height: 1px;
-  width: 94vw;
+  width: 92vw;
   margin-bottom: 3.125rem;
   margin-left: 0.625rem;
   transform: translate(0px, -10px); }
@@ -1167,7 +1170,7 @@ img {
   .texto2 {
     font-size: 1em; }
   .texto3 {
-    font-size: 1rem; }
+    font-size: 0.9rem; }
   .texto5 {
     font-size: 1.1rem; }
   .texto8 {
@@ -1183,7 +1186,7 @@ img {
   .linea {
     border-top: 1px solid #EE8D35;
     height: 1px;
-    width: 94vw;
+    width: 85vw;
     /*  margin-bottom: 1rem*45/16;  */
     margin-bottom: 2rem;
     margin-left: 0.625rem;
