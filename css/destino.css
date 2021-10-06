@@ -299,6 +299,9 @@
 .container-fluid {
   overflow: hidden !important; }
 
+body {
+  overflow-x: hidden !important; }
+
 .menu--color {
   background: linear-gradient(rgba(38, 38, 38, 0.98), rgba(70, 70, 70, 0.7)); }
 
